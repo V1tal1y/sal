@@ -1,0 +1,251 @@
+.private-projects
+    .container
+        border-bottom: 1px solid $bord
+    .filter
+        padding-bottom: 55px
+    &__content
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        padding-top: 15px
+    &-list
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        width: calc( 100% - 255px )
+        .projects-item
+            width: calc( 50% - 15px )
+            margin-bottom: 55px
+            &__img
+                height: 340px
+
+
+.private-card
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    align-items: flex-start
+    &__img
+        width: 40.5%
+        display: block
+        margin-bottom: 30px
+        order: 1
+        img
+            display: block
+    &__grey
+        width: 40.5%
+        margin-bottom: 30px
+        padding: 25px 30px 35px
+        background: #F2F2F2
+        order: 3
+        font-size: 18px
+        line-height: 1.56
+        .btn
+            width: 350px
+            font-size: 15px
+            height: 60px
+            margin-top: 25px
+        .item
+            padding-bottom: 25px
+            margin-bottom: 25px
+            border-bottom: 1px solid #DADADA
+            &:last-child
+                border-bottom: none
+                padding-bottom: 0
+                margin-bottom: 0
+    .card-characteristics
+        margin-bottom: 30px
+        width: 57%
+        order: 2
+        margin-right: 0
+        padding-left: 115px
+        padding-right: 115px
+        &__label
+            min-width: 50px
+            width: 110px
+            margin-right: 20px
+        &__value
+            width: calc( 100% - 130px )
+    &__info
+        margin-bottom: 30px
+        width: 57%
+        padding-top: 25px
+        order: 4
+        line-height: 1.56
+        font-size: 18px
+
+.private-card__gallery
+    .swiper-btn
+        margin-left: 20px
+        margin-right: 20px
+    img
+        display: block
+        width: 100%
+    &-thumbs
+        margin-top: 10px
+        img
+            width: 100%
+            height: 100%
+            object-fit: cover
+            object-position: center
+            opacity: 0.25
+            transition: all 0.15s ease-in-out
+        .swiper-slide-thumb-active
+            img
+                opacity: 1
+
+.s-private-card
+    .container
+        padding-bottom: 60px
+        border-bottom: 1px solid $bord
+
+.cards-row
+    padding-bottom: 10px
+    &:last-child
+        padding-bottom: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1550px )
+    .private-projects
+        &-list
+            .projects-item
+                width: calc( 50% - 15px )
+                margin-bottom: 55px
+                &__img
+                    height: 250px
+
+    .private-card 
+        .card-characteristics
+            padding-left: 50px
+            padding-right: 50px
+        &__grey
+            font-size: 15px
+        &__info
+            font-size: 16px
+
+
+@media screen and (max-width: 1199px )
+    .private-projects-list 
+        .projects-item__img
+            position: relative
+    .private-card 
+        .card-characteristics
+            margin-top: 0
+            padding: 0
+
+
+@media screen and (max-width: 950px )
+    .private-projects
+        &__content
+            display: block
+        .show-filter
+            margin-left: 0
+            margin-bottom: 20px
+            width: fit-content
+        .filter
+            &__title
+                pointer-events: none
+                &::after
+                    display: none
+            &__list
+                display: block
+                padding-bottom: 10px
+    .private-projects-list
+        width: 100%
+        .projects-item__img
+            height: auto
+            &::after
+                content: ''
+                display: block
+                padding-top: 56%
+                width: 100%
+            img
+                position: absolute
+                top: 0
+                left: 0
+        
+    .private-card
+        display: block
+        &__img
+            display: block
+            width: 100%
+            margin-bottom: 0
+        &__grey
+            width: 100%
+            font-size: 15px
+        .card-characteristics
+            width: 100%
+        &__info
+            width: 100%
+            padding-top: 5px
+            font-size: 15px
+
+
+@media screen and (max-width: 750px )
+    .s-private-card 
+        .container
+            padding-bottom: 40px
+        
+@media screen and (max-width: 550px )
+    .private-projects
+        .filter
+            padding-bottom: 35px
+        &__content
+            padding-top: 5px
+        &-list
+            display: block
+            .projects-item
+                width: 100%
+                margin-bottom: 35px
+
+    .s-private-card 
+        .container
+            padding-bottom: 35px
+
+@media screen and (max-width: 450px )
+    .private-projects
+        &__content
+            padding-top: 0
+    
+    .private-card
+        &__img
+            width: 100vw
+            margin-left: -5vw
+        &__grey
+            width: 100vw
+            margin-left: -5vw
+            padding-left: 5%
+            padding-right: 5%
+            font-size: 14px
+            .btn
+                height: 55px
+                font-size: 13px
+        &__info
+            padding-top: 0

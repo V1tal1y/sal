@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body><header class="header">
+    <div class="header__top">
+        <div class="container">
+            <nav class="header__nav">
+                <a href="#">О компании</a>
+                <a href="#">Акции и скидки</a>
+                <a href="#">Сотрудничество</a>
+                <a href="#">Оплата</a>
+                <a href="#">Доставка</a>
+                <a href="#">Отзывы</a>
+                <a href="#">Контакты</a>
+            </nav>
+            <a href="#" class="header__3d-prize"><img src="img/3d-prize.svg" alt=""> 3D-дизайн проект в подарок</a>
+            <a href="#">Личный кабинет</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header__logo">
+            <a href="#" class="logo">Sal Sapiente <img src="img/logo.svg" alt=""></a>
+            <span>Керамогранит <br> и керамическая плитка безупречного качества</span>
+        </div>
+        <form class="header__form">
+            <input type="text" placeholder="Поиск по сайту">
+        </form>
+        <div class="header__right">
+            <div class="header__item">
+                Москва, Научный пр-д 17
+                <span>адрес шоурума</span>
+            </div>
+            <div class="header__item">
+                9:00 – 19:00
+                <span>часы работы</span>
+            </div>
+            <div class="header__item">
+                <a href="tel:+74958775799" class="tel">+7 495 877 57 99</a>
+                <a href="#" class="btn btn-brown">заказать звонок</a>
+            </div>
+        </div>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="header__bottom">
+        <div class="container">
+<nav class="nav">
+    <ul class="nav__list">
+        <li class="nav__item nav__double">
+            <a href="#" class="nav__link">Керамогранит</a>
+            <ul class="nav__dropdown">
+                <li><a href="#">Керамогранит</a></li>
+                <li><a href="#">Керамогранит</a></li>
+            </ul>
+        </li>
+        <li class="nav__item nav__double">
+            <a href="#" class="nav__link">Керамическая плитка</a>
+            <ul class="nav__dropdown">
+                <li><a href="#">Керамогранит</a></li>
+                <li><a href="#">Керамогранит</a></li>
+            </ul>
+        </li>
+        <li class="nav__item"><a href="#" class="nav__link">Мозаика</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Панно</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Декор</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Портфолио</a></li>
+    </ul>
+</nav>
+            <div class="nav-other">
+                <a href="#">Сравнение <img src="img/comparison.svg" alt=""></a>
+                <a href="#">Избранное <img src="img/favorite.svg" alt=""></a>
+                <a href="#">Корзина <span>3</span><img src="img/cart.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="nav-mobile">
+
+        <div class="nav-mobile__top">
+            <div class="nav-mobile__info">
+                Москва, Научный пр-д 17
+                <span>адрес шоурума</span>
+            </div>
+            <div class="nav-mobile__info">
+                <a href="tel:+74958775799" class="tel">+7 495 877 57 99</a>
+                <a href="#" class="btn btn-brown">заказать звонок</a>
+            </div>
+            <div class="nav-mobile__info">
+                9:00 – 19:00
+                <span>часы работы</span>
+            </div>
+        </div>
+        <a href="#" class="btn btn-border nav-lk">Войти в личный кабинет</a>
+        <div class="navs">
+            <div class="navs-mobile">
+                <div class="navs-mobile__item">
+                    <ul class="nav-mobile__main">
+                        <li>
+                            <div class="nav-mobile__title">Керамогранит</div>
+                            <ul class="nav-mobile__second">
+                                <li><a href="#" data-id="third-menu1">Текстуры</a></li>
+                                <li><a href="#" data-id="third-menu2">Назначение</a></li>
+                                <li><a href="#" data-id="third-menu1">Стиль</a></li>
+                                <li><a href="#">Покрытие</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-mobile__title">Керамическая плитка</div>
+                            <ul class="nav-mobile__second">
+                                <li><a href="#" data-id="third-menu1">Текстуры</a></li>
+                                <li><a href="#" data-id="third-menu2">Назначение</a></li>
+                                <li><a href="#" data-id="third-menu1">Стиль</a></li>
+                                <li><a href="#">Покрытие</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Мозайка</a></li>
+                        <li><a href="#">Панно</a></li>
+                        <li><a href="#">Декор</a></li>
+                        <li><a href="#">Портфолио</a></li>
+                    </ul>
+                    <ul class="nav-mobile__bot">
+                        <li>
+                            <div class="nav-mobile__title">О компании</div>
+                            <ul class="nav-mobile__second">
+                                <li><a href="#" data-id="third-menu1">Текстуры</a></li>
+                                <li><a href="#" data-id="third-menu2">Назначение</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-mobile__title">Клиентам</div>
+                            <ul class="nav-mobile__second">
+                                <li><a href="#" data-id="third-menu1">Текстуры</a></li>
+                                <li><a href="#" data-id="third-menu2">Назначение</a></li>
+                                <li><a href="#" data-id="third-menu1">Стиль</a></li>
+                                <li><a href="#">Покрытие</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-mobile__title">Каталог товаров</div>
+                            <ul class="nav-mobile__second">
+                                <li><a href="#" data-id="third-menu1">Текстуры</a></li>
+                                <li><a href="#" data-id="third-menu2">Назначение</a></li>
+                                <li><a href="#" data-id="third-menu1">Стиль</a></li>
+                                <li><a href="#">Покрытие</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Прайс-лист</a></li>
+                    </ul>
+                </div>
+
+                <div class="navs-mobile__item">
+                    <div class="nav-third-menu" id="third-menu1">
+                        <div class="nav-third-menu__title">Текстуры</div>
+                        <ul class="nav-mobile__third" id="">
+                            <li><a href="#">Под бетон</a></li>
+                            <li><a href="#">Под дерево</a></li>
+                            <li><a href="#">Под камень</a></li>
+                            <li><a href="#">Под кирпич</a></li>
+                            <li><a href="#">Под мрамор</a></li>
+                            <li><a href="#">Под оникс</a></li>
+                            <li><a href="#">Под паркет</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-third-menu" id="third-menu2">
+                        <div class="nav-third-menu__title">Назначение</div>
+                        <ul class="nav-mobile__third" id="">
+                            <li><a href="#">Под бетон</a></li>
+                            <li><a href="#">Под дерево</a></li>
+                            <li><a href="#">Под камень</a></li>
+                            <li><a href="#">Под кирпич</a></li>
+                            <li><a href="#">Под мрамор</a></li>
+                            <li><a href="#">Под оникс</a></li>
+                            <li><a href="#">Под паркет</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="#" title="Портфолио" itemprop="item">
+                <span itemprop="name">Портфолио</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="#" title="Проекты помещений общественного назначения" itemprop="item">
+                <span itemprop="name">Проекты помещений общественного назначения</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Гостиница Radisson</span>
+        </li>
+    </ul>
+</div>
+
+<main>
+    <section class="s-private-card">
+        <div class="container" itemtype="http://schema.org/Product">
+            <h1 class="s-title-mini" itemprop="name">Гостиница Radisson</h1>
+            <div class="private-card">
+                <a href="img/tovar/priv1.jpg" class="private-card__img" data-fancybox><img src="img/tovar/priv1.jpg" alt="" itemprop="image"></a>
+                <div class="private-card__grey">
+                    <div class="item">
+                        <p>Хотите увидеть, как будет выглядеть Ваш будущий интерьер, декорированный нашим керамогранитом? <br> Жмите кнопку ниже!</p>
+                        <a href="#" class="btn btn-brown">Хочу 3D-проект бесплатно</a>
+                    </div>
+                </div>
+                <div class="card-characteristics" itemprop="description">
+                    <div class="card-characteristics__list">
+                        <div class="card-characteristics__item">
+                            <div class="card-characteristics__label">Тип помещения</div>
+                            <div class="card-characteristics__value">Лобби</div>
+                        </div>
+                        <div class="card-characteristics__item">
+                            <div class="card-characteristics__label">Коллекции</div>
+                            <div class="card-characteristics__value" itemprop="brand" itemtype="http://schema.org/Brand" itemscope>
+                                <a href="#" itemprop="name">Luxary Pannel (JRM 86005), Luxary Pannel (JRM 86006), Luxary Pannel (JRM 86007)</a>
+                            </div>
+                        </div>
+                        <div class="card-characteristics__item">
+                            <div class="card-characteristics__label">Материал</div>
+                            <div class="card-characteristics__value">Керамогранит</div>
+                        </div>
+                        <div class="card-characteristics__item">
+                            <div class="card-characteristics__label">Площадь</div>
+                            <div class="card-characteristics__value">125 м²</div>
+                        </div>
+                        <div class="card-characteristics__item">
+                            <div class="card-characteristics__label">Размеры</div>
+                            <div class="card-characteristics__value">25х5х5 м</div>
+                        </div>
+                    </div>
+                    <div class="card-characteristics__list">
+                        <div class="card-characteristics__item">
+                            <div class="card-characteristics__label">Стоимость</div>
+                            <div class="card-characteristics__value" itemprop="price" content="900.00">
+                                238 000 ₽
+                                <meta itemprop="priceCurrency" content="RUB"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-characteristics__list">
+                        <div class="card-characteristics__item">
+                            <div class="card-characteristics__label">Дизайнер</div>
+                            <div class="card-characteristics__value">Дарья Киселёва</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="private-card__info">
+                    <p>
+                        Керамическая плитка «LUXURY PANNEL» от российской компании Kerama Marazzi подойдет для облицовки стен и пола санузла в стиле ретро. Изысканности и утонченности добавит в интерьер рисунок цветов и листьев на панно и бордюрах, сочетающийся с традиционным геометрическим узором.
+                        <br><br>
+                        Декоративный материал не подвержен негативному воздействию влаги, не выгорает под УФ-лучами и выдерживает перепады температур. Он устойчив к механическому воздействию и позволяет создавать отделку, которая сохранит свое великолепие в течение длительного времени.
+                    </p>
+                </div>
+
+                <div style="display: none;" itemprop="review" itemtype="http://schema.org/Review" itemscope>
+                    <div itemprop="author" itemtype="http://schema.org/Person" itemscope>
+                        <meta itemprop="name" content="Fred Benson" />
+                    </div>
+                    <div itemprop="reviewRating" itemtype="http://schema.org/Rating" itemscope>
+                        <meta itemprop="ratingValue" content="4" />
+                        <meta itemprop="bestRating" content="5" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="private-card__gallery">
+                <div class="swiper-container private-card__gallery-top">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-btn swiper-button-next"></div>
+                    <div class="swiper-btn swiper-button-prev"></div>
+                </div>
+                <div class="swiper-container private-card__gallery-thumbs">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/col1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="img/tovar/big.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s-cards-section">
+        <div class="container">
+            <div class="cards-row">
+                <div class="s-title-mini">Керамогранит в проекте</div>
+                <div class="cards-items">
+
+                    <div class="card">
+                        <a href="img/tovar/7.jpg" class="card__img" data-fancybox>
+                            <img src="img/tovar/7.jpg" alt="">
+                        </a>
+                        <div class="card__code">SPP 8831 A</div>
+                        <div class="card__name">
+                            <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                        </div>
+                        <ul class="card__info">
+                            <li>
+                                <span>Коллекция</span>
+                                <a href="#">
+                                    Art Stone
+                                </a>
+                            </li>
+                            <li>
+                                <span>Размер</span> 30х30см
+                            </li>
+                            <li>
+                                <span>Наличие</span> На складе
+                            </li>
+                        </ul>
+                        <div class="card__price">
+                            500 ₽ за м²
+                        </div>
+
+                        <div class="card__hidden">
+                            <a href="#" class="btn btn-brown">В корзину</a>
+                            <div class="card__link"><a href="#">Сравнить</a></div>
+                            <div class="card__link"><a href="#">В избранное</a></div>
+                            <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="img/tovar/8.jpg" class="card__img" data-fancybox>
+                            <img src="img/tovar/8.jpg" alt="">
+                        </a>
+                        <div class="card__code">SPP 8831 A</div>
+                        <div class="card__name">
+                            <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                        </div>
+                        <ul class="card__info">
+                            <li>
+                                <span>Коллекция</span>
+                                <a href="#">
+                                    Art Stone
+                                </a>
+                            </li>
+                            <li>
+                                <span>Размер</span> 30х30см
+                            </li>
+                            <li>
+                                <span>Наличие</span> На складе
+                            </li>
+                        </ul>
+                        <div class="card__price">
+                            500 ₽ за м²
+                        </div>
+                        <div class="card__hidden">
+                            <a href="#" class="btn btn-brown">В корзину</a>
+                            <div class="card__link"><a href="#">Сравнить</a></div>
+                            <div class="card__link"><a href="#">В избранное</a></div>
+                            <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="img/tovar/9.jpg" class="card__img" data-fancybox>
+                            <img src="img/tovar/9.jpg" alt="">
+                        </a>
+                        <div class="card__code">SPP 8831 A</div>
+                        <div class="card__name">
+                            <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                        </div>
+                        <ul class="card__info">
+                            <li>
+                                <span>Коллекция</span>
+                                <a href="#">
+                                    Art Stone
+                                </a>
+                            </li>
+                            <li>
+                                <span>Размер</span> 30х30см
+                            </li>
+                            <li>
+                                <span>Наличие</span> На складе
+                            </li>
+                        </ul>
+                        <div class="card__price">
+                            500 ₽ за м²
+                        </div>
+
+                        <div class="card__hidden">
+                            <a href="#" class="btn btn-brown">В корзину</a>
+                            <div class="card__link"><a href="#">Сравнить</a></div>
+                            <div class="card__link"><a href="#">В избранное</a></div>
+                            <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="img/tovar/10.jpg" class="card__img" data-fancybox>
+                            <img src="img/tovar/10.jpg" alt="">
+                        </a>
+                        <div class="card__code">SPP 8831 A</div>
+                        <div class="card__name">
+                            <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                        </div>
+                        <ul class="card__info">
+                            <li>
+                                <span>Коллекция</span>
+                                <a href="#">
+                                    Art Stone
+                                </a>
+                            </li>
+                            <li>
+                                <span>Размер</span> 30х30см
+                            </li>
+                            <li>
+                                <span>Наличие</span> На складе
+                            </li>
+                        </ul>
+                        <div class="card__price">
+                            500 ₽ за м²
+                        </div>
+
+                        <div class="card__hidden">
+                            <a href="#" class="btn btn-brown">В корзину</a>
+                            <div class="card__link"><a href="#">Сравнить</a></div>
+                            <div class="card__link"><a href="#">В избранное</a></div>
+                            <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                
+            <div class="cards-row">
+                <div class="s-title-mini">Керамическая плитка в проекте</div>
+                <div class="cards-items">
+
+                    <div class="card">
+                        <a href="img/tovar/8.jpg" class="card__img" data-fancybox>
+                            <img src="img/tovar/8.jpg" alt="">
+                        </a>
+                        <div class="card__code">SPP 8831 A</div>
+                        <div class="card__name">
+                            <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                        </div>
+                        <ul class="card__info">
+                            <li>
+                                <span>Коллекция</span>
+                                <a href="#">
+                                    Art Stone
+                                </a>
+                            </li>
+                            <li>
+                                <span>Размер</span> 30х30см
+                            </li>
+                            <li>
+                                <span>Наличие</span> На складе
+                            </li>
+                        </ul>
+                        <div class="card__price">
+                            500 ₽ за м²
+                        </div>
+                        <div class="card__hidden">
+                            <a href="#" class="btn btn-brown">В корзину</a>
+                            <div class="card__link"><a href="#">Сравнить</a></div>
+                            <div class="card__link"><a href="#">В избранное</a></div>
+                            <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="img/tovar/9.jpg" class="card__img" data-fancybox>
+                            <img src="img/tovar/9.jpg" alt="">
+                        </a>
+                        <div class="card__code">SPP 8831 A</div>
+                        <div class="card__name">
+                            <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                        </div>
+                        <ul class="card__info">
+                            <li>
+                                <span>Коллекция</span>
+                                <a href="#">
+                                    Art Stone
+                                </a>
+                            </li>
+                            <li>
+                                <span>Размер</span> 30х30см
+                            </li>
+                            <li>
+                                <span>Наличие</span> На складе
+                            </li>
+                        </ul>
+                        <div class="card__price">
+                            500 ₽ за м²
+                        </div>
+
+                        <div class="card__hidden">
+                            <a href="#" class="btn btn-brown">В корзину</a>
+                            <div class="card__link"><a href="#">Сравнить</a></div>
+                            <div class="card__link"><a href="#">В избранное</a></div>
+                            <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <a href="img/tovar/10.jpg" class="card__img" data-fancybox>
+                            <img src="img/tovar/10.jpg" alt="">
+                        </a>
+                        <div class="card__code">SPP 8831 A</div>
+                        <div class="card__name">
+                            <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                        </div>
+                        <ul class="card__info">
+                            <li>
+                                <span>Коллекция</span>
+                                <a href="#">
+                                    Art Stone
+                                </a>
+                            </li>
+                            <li>
+                                <span>Размер</span> 30х30см
+                            </li>
+                            <li>
+                                <span>Наличие</span> На складе
+                            </li>
+                        </ul>
+                        <div class="card__price">
+                            500 ₽ за м²
+                        </div>
+
+                        <div class="card__hidden">
+                            <a href="#" class="btn btn-brown">В корзину</a>
+                            <div class="card__link"><a href="#">Сравнить</a></div>
+                            <div class="card__link"><a href="#">В избранное</a></div>
+                            <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+                
+    </section>
+    
+    <section class="s-projects s-projects-bb">
+        <div class="container">
+            <div class="s-title-mini">Другие проекты общественного назначения</div>
+
+        <div class="projects-list">
+            <div class="projects-item">
+                <a href="img/tovar/l1.jpg" data-fancybox class="projects-item__img">
+                    <img src="img/tovar/l1.jpg" alt="">
+                </a>
+                <a href="#" class="projects-item__type">Керамогранит</a>
+                <div class="projects-item__name"><a href="#">Гостиница Radisson</a></div>
+                <ul class="projects-item__info">
+                    <li>
+                        <span>Коллекция</span>
+                        <a href="#">
+                            Art Stone
+                        </a>
+                    </li>
+                    <li>
+                        <span>Тип помещения</span> Лобби
+                    </li>
+                    <li>
+                        <span>Площадь</span> 125 м²
+                    </li>
+                </ul>
+            </div>
+            <div class="projects-item">
+                <a href="img/tovar/l2.jpg" data-fancybox class="projects-item__img">
+                    <img src="img/tovar/l2.jpg" alt="">
+                </a>
+                <a href="#" class="projects-item__type">Керамогранит</a>
+                <div class="projects-item__name"><a href="#">Гостиница Radisson</a></div>
+                <ul class="projects-item__info">
+                    <li>
+                        <span>Коллекция</span>
+                        <a href="#">
+                            Art Stone
+                        </a>
+                    </li>
+                    <li>
+                        <span>Тип помещения</span> Лобби
+                    </li>
+                    <li>
+                        <span>Площадь</span> 125 м²
+                    </li>
+                </ul>
+            </div>
+            <div class="projects-item">
+                <a href="img/tovar/l3.jpg" data-fancybox class="projects-item__img">
+                    <img src="img/tovar/l3.jpg" alt="">
+                </a>
+                <a href="#" class="projects-item__type">Керамогранит</a>
+                <div class="projects-item__name"><a href="#">Гостиница Radisson</a></div>
+                <ul class="projects-item__info">
+                    <li>
+                        <span>Коллекция</span>
+                        <a href="#">
+                            Art Stone
+                        </a>
+                    </li>
+                    <li>
+                        <span>Тип помещения</span> Лобби
+                    </li>
+                    <li>
+                        <span>Площадь</span> 125 м²
+                    </li>
+                </ul>
+            </div>
+            <div class="projects-item">
+                <a class="projects-item__img" href="img/tovar/l9.jpg" data-fancybox>
+                    <img src="img/tovar/l9.jpg" alt="">
+                </a>
+                <a href="#" class="projects-item__type">Керамогранит</a>
+                <div class="projects-item__name"><a href="#">Гостиница Radisson</a></div>
+                <ul class="projects-item__info">
+                    <li>
+                        <span>Коллекция</span>
+                        <a href="#">
+                            Art Stone
+                        </a>
+                    </li>
+                    <li>
+                        <span>Тип помещения</span> Лобби
+                    </li>
+                    <li>
+                        <span>Площадь</span> 125 м²
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <a href="#" class="btn btn-brown btn-order-design">Заказать дизайн-проект бесплатно</a>
+        <a href="#" class="link-view-all">Смотреть все</a>        </div>
+    </section>
+
+<section class="s-subscribe">
+    <div class="container">
+        <div class="s-title-mini">Подпишитесь на рассылку, чтобы первыми <br> получать акции, новости и спецпредложения</div>
+        <form action="" class="subscribe-form">
+            <input type="text" class="input" placeholder="Ваш email">
+            <button class="btn btn-border">Подписаться на рассылку</button>
+        </form>
+    </div>
+</section>
+</main>
+
+
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__left">
+            <a href="#" class="logo">
+                Sal Sapiente <img src="img/logo.svg" alt="">
+            </a>
+            <p>Москва, Научный проезд, дом 17, бизнес-центр «9 акров»</p>
+            <p>
+                <a href="tel:+74958775798">+7 495 877 57 98</a> <br>
+                <a href="mailto:sale@salsapiente.ru">sale@salsapiente.ru</a>
+            </p>
+            <p>
+                понедельник-пятница <br> с 09:00 до 18:00
+            </p>
+            <div class="write">
+                <a href="#"><img src="img/write.svg" alt=""> Написать директору</a>
+            </div>
+            <div class="footer__socials">
+                <a href="#"><img src="img/fb.svg" alt=""></a>
+                <a href="#"><img src="img/insta.svg" alt=""></a>
+                <a href="#"><img src="img/youtube.svg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="footer__right">
+            <div class="footer__item">
+                <h3>О компании</h3>
+                <nav class="footer__nav">
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Философия бренда</a></li>
+                        <li><a href="#">Производство</a></li>
+                        <li><a href="#">Сотрудничество</a></li>
+                        <li><a href="#">Лицензии и сертификаты</a></li>
+                        <li><a href="#">Материалы для скачивания</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__item">
+                <h3>Клиентам</h3>
+                <nav class="footer__nav">
+                    <ul>
+                        <li><a href="#">Акции и скидки</a></li>
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Гарантия</a></li>
+                        <li><a href="#">Возврат и обмен</a></li>
+                        <li><a href="#">Покупка в кредит</a></li>
+                        <li><a href="#">Новости и статьи</a></li>
+                        <li><a href="#">Потфолио</a></li>
+                        <li><a href="#">3D-дизайн проект</a></li>
+                        <li><a href="#">3D-моделирование</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__item">
+                <h3>Каталог товаров</h3>
+                <nav class="footer__nav">
+                    <ul>
+                        <li><a href="#">Керамическая плитка</a></li>
+                        <li><a href="#">Керамогранит</a></li>
+                        <li><a href="#">Мозаика</a></li>
+                        <li><a href="#">Панно</a></li>
+                        <li><a href="#">Декор</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="price-list-link">Прайс-лист</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bot">
+        <div class="container">
+            <p>©2020, Сеть фирменных магазинов керамогранита Sal Sapiente. Политика конфиденциальности.</p>
+            <a href="#">Дизайн — студия Арбуз</a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script src="js/ion.rangeSlider.min.js"></script>
+<script src="js/main.js"></script>
+
+
+
+
+<script src="//www.youtube.com/player_api"></script>
+
+<script>
+    var player = [];
+
+    function onYouTubeIframeAPIReady() {
+        player[0] = new YT.Player('video1', {
+            height: 'auto',
+            width: 'auto',
+            videoId: '6d8_PaiCXBI',
+        });
+        player[1] = new YT.Player('video2', {
+            height: 'auto',
+            width: 'auto',
+            videoId: '6d8_PaiCXBI',
+        });
+    }
+    $(document).on('click', '.video__placeholder', function () {
+        $(this).hide(0);
+        var playerVider = Number($(this).attr('data-id'));
+        player[playerVider].playVideo();
+    });
+</script>
+
+
+</body>
+
+</html>

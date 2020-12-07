@@ -1,0 +1,72 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Портфолио</span>
+        </li>
+    </ul>
+</div>
+
+<main>
+    <section class="portfolio">
+        <div class="container">
+            <h1 class="s-title">Портфолио</h1>
+            <div class="projects-portfolio">
+                <div class="s-title-mini">Частные проекты</div>
+                <!-- @import #sorse/kit/projects-portfolio.kit-->
+            </div>
+            <div class="projects-portfolio">
+                <div class="s-title-mini">Проекты помещений общественного назначения</div>
+                <!-- @import #sorse/kit/projects-portfolio.kit-->
+            </div>
+        </div>
+    </section>
+
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+
+
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+
+
+<script src="//www.youtube.com/player_api"></script>
+
+<script>
+    var player = [];
+
+    function onYouTubeIframeAPIReady() {
+        player[0] = new YT.Player('video1', {
+            height: 'auto',
+            width: 'auto',
+            videoId: '6d8_PaiCXBI',
+        });
+        player[1] = new YT.Player('video2', {
+            height: 'auto',
+            width: 'auto',
+            videoId: '6d8_PaiCXBI',
+        });
+    }
+    $(document).on('click', '.video__placeholder', function () {
+        $(this).hide(0);
+        var playerVider = Number($(this).attr('data-id'));
+        player[playerVider].playVideo();
+    });
+</script>
+
+
+</body>
+
+</html>

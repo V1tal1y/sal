@@ -1,0 +1,254 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Портфолио</span>
+        </li>
+    </ul>
+</div>
+
+<main>
+    <section class="private-projects">
+        <div class="container">
+            <h1 class="s-title-mini">Частные проекты</h1>
+            <div class="private-projects__content">
+                <div class="show-filter">Фильтр</div>
+                <div class="filter private-projects__filter">
+                    <div class="filter__item">
+                        <div class="filter__list">
+                            <div class="filter__label">
+                                <label class="checkbox">
+                                    <input type="checkbox" checked name="">
+                                    <span class="check"></span>
+                                    Керамогранит
+                                </label>
+                            </div>
+                            <div class="filter__label">
+                                <label class="checkbox">
+                                    <input type="checkbox" checked name="">
+                                    <span class="check"></span>
+                                    Керамическая плитка
+                                </label>
+                            </div>
+                            <div class="filter__label">
+                                <label class="checkbox">
+                                    <input type="checkbox" checked name="">
+                                    <span class="check"></span>
+                                    Мозаика
+                                </label>
+                            </div>
+                            <div class="filter__label">
+                                <label class="checkbox">
+                                    <input type="checkbox" checked name="">
+                                    <span class="check"></span>
+                                    Панно
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="filter__item">
+                        <div class="filter__title">Тематика проектов</div>
+                        <div class="filter__list">
+                            <div class="filter__label">
+                                <label class="checkbox">
+                                    <input type="checkbox" checked name="">
+                                    <span class="check"></span>
+                                    Кухни
+                                </label>
+                            </div>
+                            <div class="filter__label">
+                                <label class="checkbox">
+                                    <input type="checkbox" name="">
+                                    <span class="check"></span>
+                                    Санузлы
+                                </label>
+                            </div>
+                            <div class="filter__label">
+                                <label class="checkbox">
+                                    <input type="checkbox" name="">
+                                    <span class="check"></span>
+                                    Прихожие
+                                </label>
+                            </div>
+                            <div class="filter__label">
+                                <label class="checkbox">
+                                    <input type="checkbox" name="">
+                                    <span class="check"></span>
+                                    Прочие частные пространства
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="filter__btns">
+                        <a href="#" class="btn btn-brown">Применить</a>
+                        <a href="#" class="reset-filter">Сбросить</a>
+                    </div>
+                </div>
+                <div class="private-projects-list">
+                    <div class="projects-item">
+                        <a href="img/tovar/priv1.jpg" data-fancybox class="projects-item__img">
+                            <img src="img/tovar/priv1.jpg" alt="">
+                        </a>
+                        <a href="#" class="projects-item__type">Керамогранит</a>
+                        <div class="projects-item__name"><a href="#">Гостиница Radisson</a></div>
+                        <ul class="projects-item__info">
+                            <li>
+                                <span>Коллекция</span>
+                                <a href="#">
+                                    Art Stone
+                                </a>
+                            </li>
+                            <li>
+                                <span>Тип помещения</span> Лобби
+                            </li>
+                            <li>
+                                <span>Площадь</span> 125 м²
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="projects-item">
+                        <a href="img/tovar/priv2.jpg" data-fancybox class="projects-item__img">
+                            <img src="img/tovar/priv2.jpg" alt="">
+                        </a>
+                        <a href="#" class="projects-item__type">Керамогранит</a>
+                        <div class="projects-item__name"><a href="#">Гостиница Radisson</a></div>
+                        <ul class="projects-item__info">
+                            <li>
+                                <span>Коллекция</span>
+                                <a href="#">
+                                    Art Stone
+                                </a>
+                            </li>
+                            <li>
+                                <span>Тип помещения</span> Лобби
+                            </li>
+                            <li>
+                                <span>Площадь</span> 125 м²
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="projects-item">
+                        <a href="img/tovar/priv3.jpg" data-fancybox class="projects-item__img">
+                            <img src="img/tovar/priv3.jpg" alt="">
+                        </a>
+                        <a href="#" class="projects-item__type">Керамогранит</a>
+                        <div class="projects-item__name"><a href="#">Гостиница Radisson</a></div>
+                        <ul class="projects-item__info">
+                            <li>
+                                <span>Коллекция</span>
+                                <a href="#">
+                                    Art Stone
+                                </a>
+                            </li>
+                            <li>
+                                <span>Тип помещения</span> Лобби
+                            </li>
+                            <li>
+                                <span>Площадь</span> 125 м²
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="projects-item">
+                        <a href="img/tovar/priv4.jpg" data-fancybox class="projects-item__img">
+                            <img src="img/tovar/priv4.jpg" alt="">
+                        </a>
+                        <a href="#" class="projects-item__type">Керамогранит</a>
+                        <div class="projects-item__name"><a href="#">Гостиница Radisson</a></div>
+                        <ul class="projects-item__info">
+                            <li>
+                                <span>Коллекция</span>
+                                <a href="#">
+                                    Art Stone
+                                </a>
+                            </li>
+                            <li>
+                                <span>Тип помещения</span> Лобби
+                            </li>
+                            <li>
+                                <span>Площадь</span> 125 м²
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    <div class="projects-item">
+                        <a href="img/tovar/priv2.jpg" data-fancybox class="projects-item__img">
+                            <img src="img/tovar/priv2.jpg" alt="">
+                        </a>
+                        <a href="#" class="projects-item__type">Керамогранит</a>
+                        <div class="projects-item__name"><a href="#">Гостиница Radisson</a></div>
+                        <ul class="projects-item__info">
+                            <li>
+                                <span>Коллекция</span>
+                                <a href="#">
+                                    Art Stone
+                                </a>
+                            </li>
+                            <li>
+                                <span>Тип помещения</span> Лобби
+                            </li>
+                            <li>
+                                <span>Площадь</span> 125 м²
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+
+
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+
+
+<script src="//www.youtube.com/player_api"></script>
+
+<script>
+    var player = [];
+
+    function onYouTubeIframeAPIReady() {
+        player[0] = new YT.Player('video1', {
+            height: 'auto',
+            width: 'auto',
+            videoId: '6d8_PaiCXBI',
+        });
+        player[1] = new YT.Player('video2', {
+            height: 'auto',
+            width: 'auto',
+            videoId: '6d8_PaiCXBI',
+        });
+    }
+    $(document).on('click', '.video__placeholder', function () {
+        $(this).hide(0);
+        var playerVider = Number($(this).attr('data-id'));
+        player[playerVider].playVideo();
+    });
+</script>
+
+
+</body>
+
+</html>

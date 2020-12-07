@@ -1,0 +1,358 @@
+.news-list-controls
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-bottom: 25px
+    padding-top: 20px
+    .show-cards
+        margin-right: 0
+.s-news-list
+    .container
+        padding-bottom: 50px
+        border-bottom: 1px solid $bord
+.btn-all-items
+    height: 60px
+    margin-bottom: 30px
+.news-list
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    .news-item
+        margin-bottom: 60px
+        margin-right: 30px
+        width: calc( 25% - 22.5px )
+        &:nth-child(4n+4)
+            margin-right: 0
+        
+
+.sorting-news
+    display: flex
+    align-items: center
+    a
+        display: block
+        margin-right: 20px
+        color: $brown
+        &:last-child
+            margin-right: 0
+        &:hover
+            color: $brownh
+        &.active
+            color: $dop 
+            pointer-events: none
+
+.news-item
+    &__img
+        height: 236px
+        display: block
+        margin-bottom: 16px
+        overflow: hidden
+        img
+            display: block
+            width: 100%
+            height: 100%
+            object-fit: cover
+            object-position: center
+    &__category
+        font-size: 13px
+        text-decoration: underline
+        &:hover
+            text-decoration: none
+    &__title
+        padding: 10px 0 9px
+        font-size: 18px
+        font-weight: 700
+        a:hover
+            color: $brown
+    p
+        font-size: 13px
+        padding-bottom: 12px
+        line-height: 1.45
+    &__date
+        font-size: 13px
+        opacity: 0.5
+
+
+
+.one-news
+    width: 66%
+    font-size: 15px
+    &-flex
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+    &__big
+        display: block
+        width: 100%
+        margin-bottom: 30px
+    p
+        line-height: 1.65
+        padding-bottom: 1em
+    &__info
+        display: flex
+        justify-content: space-between
+        font-size: 13px
+        margin-bottom: 18px
+        padding-top: 10px
+    &__date
+        opacity: 0.5
+    &__type
+        text-decoration: underline
+        &:hover
+            text-decoration: none
+    &__cards
+        display: flex
+        flex-wrap: wrap
+        padding-top: 50px
+        .card
+            width: calc( 25% - 22.5px )
+            margin-right: 30px
+            margin-bottom: 45px
+            &:nth-child(4n+4)
+                margin-right: 0
+    &__galery
+        display: flex
+        flex-wrap: wrap
+        position: relative
+        justify-content: space-between
+        img
+            display: block
+        & > a
+            width: calc( 50% - 15px )
+            margin-bottom: 30px
+            img
+                width: 100%
+    &__tiles
+        display: block
+        width: 380px
+        margin-left: 130px
+        position: absolute
+        top: 0
+        left: 100%
+    &__tile
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-bottom: 15px
+        padding-right: 5px
+        &:last-child
+            margin-bottom: 0
+        &-img
+            width: 97px
+            height: 97px
+            overflow: hidden
+            img
+                width: 100%
+                height: 100%
+                object-position: center
+                object-fit: cover
+        &-text
+            width: calc( 100% - 130px )
+
+.news-share
+    display: flex
+    align-items: center
+    padding-top: 45px
+    margin-top: 20px
+    border-top: 1px solid $bord
+    a
+        border-radius: 100%
+        width: 35px
+        height: 35px
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-left: 15px
+        span
+            display: block
+            padding-right: 15px
+        svg
+            fill: $brown
+            width: 100%
+        &:hover
+            svg
+                fill: $brownh
+
+
+
+.widget-news
+    &__list
+        padding-bottom: 23px
+    &__item
+        padding: 27px 0
+        border-bottom: 1px solid rgba(29,30,32,0.15)
+        &:first-child
+            padding-top: 0
+        &:last-child
+            border-bottom: none
+    &__type
+        font-size: 13px
+        text-decoration: underline
+    &__name
+        font-size: 18px
+        padding: 10px 0 12px
+        a
+            font-weight: 600
+    &__date
+        font-size: 13px
+        opacity: 0.5
+    &__all
+        color: $brown
+        &:hover
+            color: $brownh
+
+
+.sidebar-news
+    width: 25.65%
+
+.sidebar-widget
+    &__title
+        font-size: 28px
+        padding-bottom: 30px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1550px )
+    .news-item
+        &__img
+            height: 190px
+    .news-list 
+        .news-item
+            margin-bottom: 45px
+    .news-list-controls
+        padding-top: 10px
+    .sidebar-news
+        width: 30%
+    .widget-news
+        &__list
+            padding-bottom: 10px
+        &__item
+            padding: 20px 0
+
+    .one-news
+        &__tiles
+            width: 351px
+            margin-left: 48px
+    .sidebar-widget
+        &__title
+            padding-bottom: 26px
+
+    .one-news
+        &__cards 
+            .card
+                width: calc( ( 100% / 3 ) - 20px )
+
+
+
+
+@media screen and (max-width: 1199px )
+    .news-list 
+        .news-item
+            width: calc( (100% / 3) - 20px )
+            &:nth-child(4n+4)
+                margin-right: 30px
+            &:nth-child(3n+3)
+                margin-right: 0
+    .one-news
+        &__tiles
+            display: none
+
+    .one-news-flex
+        display: block
+    .one-news
+        width: 100%
+    .news-share
+        padding-top: 25px
+        margin-top: 15px
+        padding-bottom: 25px
+        border-bottom: 1px solid $bord
+    .sidebar-news
+        width: 100%
+        padding-top: 30px
+        padding-bottom: 30px
+        border-bottom: 1px solid $bord
+
+
+
+@media screen and (max-width: 950px )
+    .news-list 
+        justify-content: space-between
+        .news-item
+            width: calc( 50% - 15px )
+            margin-right: 0
+            &:nth-child(4n+4)
+                margin-right: 0
+        
+    .news-item
+        &__img
+            height: 220px
+            margin-bottom: 12px
+
+
+
+
+@media screen and (max-width: 750px )
+    .news-item
+        &__img
+            height: 180px
+            margin-bottom: 12px
+    .one-news__galery > a
+        width: calc( 50% - 10px )
+        margin-bottom: 20px
+@media screen and (max-width: 550px )
+    .news-list 
+        display: block
+        .news-item
+            width: 100%
+            margin-bottom: 35px
+    .news-item
+        &__img
+            height: 230px
+
+    .one-news
+        font-size: 15px
+        &__galery 
+            padding: 10px 0 5px
+            & > a
+                width: 100%
+                margin-bottom: 15px
+        &__info
+            padding-top: 0
+        &__cards
+            padding-top: 10px
+            justify-content: space-between
+            .card
+                width: calc( 50% - 10px )
+                margin-bottom: 20px
+                margin-right: 0
+    
+@media screen and (max-width: 450px )
+    .news-item
+        &__img
+            height: 200px
+    .btn-all-items
+        width: 100vw
+        max-width: 100vw
+        margin-left: -5vw
+    .sidebar-widget
+        &__title
+            font-size: 22px
+        &__name
+            font-size: 16px
+            padding: 9px 0
+    .widget-news__all
+        font-size: 16px
+@media screen and (max-width: 360px )
+    .news-item
+        &__img
+            height: 160px

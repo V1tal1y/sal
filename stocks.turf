@@ -1,0 +1,51 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Акции и скидки</span>
+        </li>
+    </ul>
+</div>
+
+<main>
+    <section class="s-stocks">
+        <div class="container">
+            <h1 class="s-title">Акции и скидки</h1>
+            <div class="stocks">
+                <a href="#" class="stocks__item">
+                    <span class="stocks__img"><img src="img/tovar/l1.jpg" alt=""></span>
+                    3D-дизайн проект в подарок
+                </a>
+                <a href="#" class="stocks__item">
+                    <span class="stocks__img"><img src="img/tovar/l1.jpg" alt=""></span>
+                    3D-дизайн проект в подарок
+                </a>
+                <a href="#" class="stocks__item">
+                    <span class="stocks__img"><img src="img/tovar/l1.jpg" alt=""></span>
+                    3D-дизайн проект в подарок
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+
+
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+</body>
+
+</html>

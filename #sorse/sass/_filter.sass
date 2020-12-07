@@ -1,0 +1,202 @@
+.filter
+    width: 225px
+    font-size: 13px
+    position: relative
+    &__quantity
+        position: absolute
+        top: 0
+        right: -50px
+        padding: 10px
+        background: $d
+        box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.35)
+        color: #7e7f81
+        transform: translateY(-50%)
+        margin-top: 2px
+        display: none
+        a
+            color: #ffffff
+            font-size: 15px
+            &:hover
+                color: $brown
+        &::after
+            content: ''
+            display: block
+            position: absolute
+            top: 50%
+            right: 100%
+            margin-top: -5px
+            width: 0
+            height: 0
+            border-style: solid
+            border-width: 7.5px 10px 7.5px 0
+            border-color: transparent #1d1e20 transparent transparent
+    .btn
+        height: 40px
+        font-size: 15px
+        margin-bottom: 15px
+    &__btns
+        text-align: center
+        font-size: 15px
+    &__item
+        margin-bottom: 30px
+    .price-per
+        margin-bottom: 25px
+    &__hide
+        display: none
+    &__price
+        &-counter
+            display: flex
+            justify-content: space-between
+            align-items: center
+            font-size: 13px
+            color: $dop
+            margin-bottom: 15px
+            input
+                height: 40px
+                width: 103px
+                padding: 0 10px
+                color: $dop
+                font-size: 13px
+                border: 1px solid $dop1
+    &__label
+        margin-bottom: 12px
+    &__title
+        font-size: 15px
+        margin-bottom: 15px
+    .price-per
+        margin-top: 14px
+        padding-bottom: 10px
+.show-all-filter
+    padding-top: 2px
+.show-all-filter a,
+.reset-filter
+    color: $brown
+    &:hover
+        color: $brownh
+.price-per
+    display: flex
+    flex-wrap: wrap
+.radio-square
+    text-align: center
+    display: block
+    width: 40px
+    height: 40px
+    margin-right: 10px
+    cursor: pointer
+    &:last-child
+        margin-right: 0
+    input
+        display: none
+        &:checked
+            & + .check
+                background: $brown
+                color: #ffffff
+    .check
+        width: 40px
+        height: 40px
+        border: 1px solid $brown
+        display: flex
+        align-items: center
+        justify-content: center
+
+.checkbox
+    position: relative
+    padding-left: 26px
+    display: inline-block
+    cursor: pointer
+    input
+        display: none
+        &:checked
+            & + .check
+                background: $brown url('../img/check.svg') no-repeat center
+                border-color: $brown
+    .check
+        position: absolute
+        top: 50%
+        transform: translateY(-50%)
+        left: 0
+        width: 15px
+        height: 15px
+        border: 1px solid $dop2
+.checkbox-color
+    width: 150px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    .color
+        align-self: flex-end
+        width: 20px
+        height: 20px
+        display: inline-block
+        font-size: 0
+        border-radius: 100%
+        background-size: cover
+        margin-left: auto
+
+
+.filter__price
+    .irs-min,
+    .irs-max,
+    .irs-from, 
+    .irs-to, 
+    .irs-single
+        display: none
+        opacity: 0
+
+
+@media screen and (max-width: 1700px )
+
+
+
+@media screen and (max-width: 1199px )
+    
+        
+@media screen and (min-width: 950px )
+    .filter
+        &__list
+            display: block!important
+@media screen and (max-width: 950px )
+    .filter
+        width: 100%
+        display: none
+        padding-bottom: 35px
+        &__quantity
+            right: 0
+        &__title
+            padding: 10px 0
+            margin-bottom: 0
+            display: flex
+            justify-content: space-between
+            align-items: center
+            &::after
+                content: ''
+                display: block
+                min-width: 15px
+                height: 11px
+                transition: all 0.15s ease-in-out
+                background: url('../img/arr-sorting-b.svg') no-repeat center bottom
+        .active-item
+            & + .filter__btns
+                padding-top: 10px
+            .filter__title
+                &::after
+                    background: url('../img/arr-sorting-act.svg') no-repeat center bottom
+                    transform: rotate(180deg)
+        &__list
+            display: none
+            padding: 5px 0 20px
+        &__item
+            margin-bottom: 0
+        &__btns
+            transition: all 0.15s ease-in-out
+            padding-top: 25px
+
+@media screen and (max-width: 750px )
+    
+        
+@media screen and (max-width: 550px )
+    
+
+@media screen and (max-width: 450px )
+    
+

@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body><header class="header">
+    <div class="header__top">
+        <div class="container">
+            <nav class="header__nav">
+                <a href="#">О компании</a>
+                <a href="#">Акции и скидки</a>
+                <a href="#">Сотрудничество</a>
+                <a href="#">Оплата</a>
+                <a href="#">Доставка</a>
+                <a href="#">Отзывы</a>
+                <a href="#">Контакты</a>
+            </nav>
+            <a href="#" class="header__3d-prize"><img src="img/3d-prize.svg" alt=""> 3D-дизайн проект в подарок</a>
+            <a href="#">Личный кабинет</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header__logo">
+            <a href="#" class="logo">Sal Sapiente <img src="img/logo.svg" alt=""></a>
+            <span>Керамогранит <br> и керамическая плитка безупречного качества</span>
+        </div>
+        <form class="header__form">
+            <input type="text" placeholder="Поиск по сайту">
+        </form>
+        <div class="header__right">
+            <div class="header__item">
+                Москва, Научный пр-д 17
+                <span>адрес шоурума</span>
+            </div>
+            <div class="header__item">
+                9:00 – 19:00
+                <span>часы работы</span>
+            </div>
+            <div class="header__item">
+                <a href="tel:+74958775799" class="tel">+7 495 877 57 99</a>
+                <a href="#" class="btn btn-brown">заказать звонок</a>
+            </div>
+        </div>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div class="header__bottom">
+        <div class="container">
+<nav class="nav">
+    <ul class="nav__list">
+        <li class="nav__item nav__double">
+            <a href="#" class="nav__link">Керамогранит</a>
+            <ul class="nav__dropdown">
+                <li><a href="#">Керамогранит</a></li>
+                <li><a href="#">Керамогранит</a></li>
+            </ul>
+        </li>
+        <li class="nav__item nav__double">
+            <a href="#" class="nav__link">Керамическая плитка</a>
+            <ul class="nav__dropdown">
+                <li><a href="#">Керамогранит</a></li>
+                <li><a href="#">Керамогранит</a></li>
+            </ul>
+        </li>
+        <li class="nav__item"><a href="#" class="nav__link">Мозаика</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Панно</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Декор</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">Портфолио</a></li>
+    </ul>
+</nav>
+            <div class="nav-other">
+                <a href="#">Сравнение <img src="img/comparison.svg" alt=""></a>
+                <a href="#">Избранное <img src="img/favorite.svg" alt=""></a>
+                <a href="#">Корзина <span>3</span><img src="img/cart.svg" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="nav-mobile">
+
+        <div class="nav-mobile__top">
+            <div class="nav-mobile__info">
+                Москва, Научный пр-д 17
+                <span>адрес шоурума</span>
+            </div>
+            <div class="nav-mobile__info">
+                <a href="tel:+74958775799" class="tel">+7 495 877 57 99</a>
+                <a href="#" class="btn btn-brown">заказать звонок</a>
+            </div>
+            <div class="nav-mobile__info">
+                9:00 – 19:00
+                <span>часы работы</span>
+            </div>
+        </div>
+        <a href="#" class="btn btn-border nav-lk">Войти в личный кабинет</a>
+        <div class="navs">
+            <div class="navs-mobile">
+                <div class="navs-mobile__item">
+                    <ul class="nav-mobile__main">
+                        <li>
+                            <div class="nav-mobile__title">Керамогранит</div>
+                            <ul class="nav-mobile__second">
+                                <li><a href="#" data-id="third-menu1">Текстуры</a></li>
+                                <li><a href="#" data-id="third-menu2">Назначение</a></li>
+                                <li><a href="#" data-id="third-menu1">Стиль</a></li>
+                                <li><a href="#">Покрытие</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-mobile__title">Керамическая плитка</div>
+                            <ul class="nav-mobile__second">
+                                <li><a href="#" data-id="third-menu1">Текстуры</a></li>
+                                <li><a href="#" data-id="third-menu2">Назначение</a></li>
+                                <li><a href="#" data-id="third-menu1">Стиль</a></li>
+                                <li><a href="#">Покрытие</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Мозайка</a></li>
+                        <li><a href="#">Панно</a></li>
+                        <li><a href="#">Декор</a></li>
+                        <li><a href="#">Портфолио</a></li>
+                    </ul>
+                    <ul class="nav-mobile__bot">
+                        <li>
+                            <div class="nav-mobile__title">О компании</div>
+                            <ul class="nav-mobile__second">
+                                <li><a href="#" data-id="third-menu1">Текстуры</a></li>
+                                <li><a href="#" data-id="third-menu2">Назначение</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-mobile__title">Клиентам</div>
+                            <ul class="nav-mobile__second">
+                                <li><a href="#" data-id="third-menu1">Текстуры</a></li>
+                                <li><a href="#" data-id="third-menu2">Назначение</a></li>
+                                <li><a href="#" data-id="third-menu1">Стиль</a></li>
+                                <li><a href="#">Покрытие</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="nav-mobile__title">Каталог товаров</div>
+                            <ul class="nav-mobile__second">
+                                <li><a href="#" data-id="third-menu1">Текстуры</a></li>
+                                <li><a href="#" data-id="third-menu2">Назначение</a></li>
+                                <li><a href="#" data-id="third-menu1">Стиль</a></li>
+                                <li><a href="#">Покрытие</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Прайс-лист</a></li>
+                    </ul>
+                </div>
+
+                <div class="navs-mobile__item">
+                    <div class="nav-third-menu" id="third-menu1">
+                        <div class="nav-third-menu__title">Текстуры</div>
+                        <ul class="nav-mobile__third" id="">
+                            <li><a href="#">Под бетон</a></li>
+                            <li><a href="#">Под дерево</a></li>
+                            <li><a href="#">Под камень</a></li>
+                            <li><a href="#">Под кирпич</a></li>
+                            <li><a href="#">Под мрамор</a></li>
+                            <li><a href="#">Под оникс</a></li>
+                            <li><a href="#">Под паркет</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-third-menu" id="third-menu2">
+                        <div class="nav-third-menu__title">Назначение</div>
+                        <ul class="nav-mobile__third" id="">
+                            <li><a href="#">Под бетон</a></li>
+                            <li><a href="#">Под дерево</a></li>
+                            <li><a href="#">Под камень</a></li>
+                            <li><a href="#">Под кирпич</a></li>
+                            <li><a href="#">Под мрамор</a></li>
+                            <li><a href="#">Под оникс</a></li>
+                            <li><a href="#">Под паркет</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/razdel/" title="Каталог" itemprop="item">
+                <span itemprop="name">Каталог</span>
+                <meta itemprop="position" content="1">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/razdel/podrazdel/" title="Керамогранит" itemprop="item">
+                <span itemprop="name">Керамогранит</span>
+                <meta itemprop="position" content="2">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Товары</span>
+        </li>
+    </ul>
+</div>
+<main>
+
+    <section class="s-catalog">
+        <div class="container" itemtype="http://schema.org/Product" itemscope>
+            <h1 class="catalog-title">
+                <meta itemprop="name" content="Executive Anvil" />
+                Керамогранит
+                <span>15 780 оваров</span>
+            </h1>
+            <div itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                <meta itemprop="itemCondition" content="https://schema.org/UsedCondition" />
+                <meta itemprop="lowPrice" content="11.99" />
+                <meta itemprop="highPrice" content="1999.99" />
+                <meta itemprop="offerCount" content="15780" />
+                <meta itemprop="priceCurrency" content="RUB" />
+            </div>
+            <div class="tags">
+                <a href="#">под мрамор со скидкой</a>
+                <a href="#">матовый 60х60</a>
+                <a href="#">красный 30х30</a>
+                <a href="#">30х30</a>
+                <a href="#">чёрный матовый</a>
+                <a href="#">квадрат под дерево</a>
+                <a href="#">противоскользящий винтаж</a>
+                <a href="#">хит под оникс</a>
+                <a href="#">под мрамор со скидкой</a>
+                <a href="#">матовый 60х60</a>
+                <a href="#">красный 30х30</a>
+                <a href="#">чёрный матовый</a>
+                <a href="#">квадрат под дерево</a>
+                <a href="#">хит под оникс</a>
+                <a href="#">под мрамор со скидкой</a>
+                <a href="#">матовый 60х60</a>
+                <a href="#">красный 30х30</a>
+                <a href="#">чёрный матовый</a>
+                <a href="#">квадрат под дерево</a>
+                <a href="#">противоскользящий винтаж</a>
+                <a href="#">хит под оникс</a>
+                <a href="#">под мрамор со скидкой</a>
+                <a href="#">матовый 60х60</a>
+                <a href="#">красный 30х30</a>
+                <a href="#">чёрный матовый</a>
+                <a href="#">квадрат под дерево</a>
+                <a href="#">противоскользящий винтаж</a>
+                <a href="#">хит под оникс</a>
+                <div class="btn-all-tags">показать еще </div>
+            </div>
+
+            <div class="catalog-controls">
+                <div class="sorting">
+                    <div class="catalog-controls__title">Сортировать</div>
+                    <div class="sorting__types">
+                        <a href="#" class="active">по умолчанию</a>
+                        <a href="#">цене</a>
+                        <a href="#">алфавиту</a>
+                    </div>
+                </div>
+                <div class="show-cards">
+                    <div class="catalog-controls__title">Показывать по</div>
+                    <a href="#" class="active">10</a>
+                    <a href="#">20</a>
+                    <a href="#">40</a>
+                </div>
+                <div class="show-type">
+                    <a href="#">Товары</a>
+                    <a href="#" class="active">Текстуры</a>
+                    <a href="#">Коллекции</a>
+                </div>
+                <div class="show-filter">Фильтр</div>
+            </div>
+
+            <div class="catalog">
+                
+<div class="filter">
+    <div class="filter__quantity">
+        <a href="#">Применить</a>
+        <div class="filter__number-found">
+            найдено 12 734 товара
+        </div>
+    </div>
+    <div class="filter__item">
+        <div class="filter__title">Цена, руб. </div>
+        <div class="filter__list">
+            <div class="filter__price">
+                <div class="filter__price-counter">
+                    <input type="text" class="price-range__min"> - <input type="text"
+                        class="price-range__max">
+                </div>
+                <input type="text" class="price-range">
+            </div>
+            <div class="price-per">
+                <label class="radio-square">
+                    <input type="radio" checked name="price-per">
+                    <span class="check">шт</span>
+                </label>
+                <label class="radio-square">
+                    <input type="radio" name="price-per">
+                    <span class="check">м²</span>
+                </label>
+            </div>
+            
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    В наличии
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Акция
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Новинка
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Хит
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter__item">
+        <div class="filter__title">Вид</div>
+        <div class="filter__list">
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Глазурованный
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Неглазурованный
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter__item">
+        <div class="filter__title">Тип геометрии</div>
+        <div class="filter__list">
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Бесшовный
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Ректифицированный
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Структурированный
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter__item">
+        <div class="filter__title">Поверхность</div>
+
+        <div class="filter__list">
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Противоскользящая
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Матовая
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Лаппатированная
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Рельефная
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Глянцевая
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter__item">
+        <div class="filter__title">Текстуры</div>
+
+        <div class="filter__list">
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Под мрамор
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Под оникс
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Под камень
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Под бетон
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Под дерево
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Под паркет
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Под ткань
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Под металл
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Под поноколор
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Под сланец
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Под травертин
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter__item">
+        <div class="filter__title">Помещение / назначение</div>
+
+        <div class="filter__list">
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Для ванной
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Для кухни
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Для прихожей
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Для коридора
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Для туалета
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Для бассейна
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Для фасада
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Для коттеджа
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Для входной группы
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    В подъезд
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Для внутренней отделки
+                </label>
+            </div>
+            <div class="filter__hide">
+                <div class="filter__label">
+                    <label class="checkbox">
+                        <input type="checkbox" name="">
+                        <span class="check"></span>
+                        В подъезд
+                    </label>
+                </div>
+                <div class="filter__label">
+                    <label class="checkbox">
+                        <input type="checkbox" name="">
+                        <span class="check"></span>
+                        Для внутренней отделки
+                    </label>
+                </div>
+            </div>
+            <div class="show-all-filter"><a href="#">Показать все</a></div>
+        </div>
+    </div>
+
+    <div class="filter__item">
+        <div class="filter__title">Стиль</div>
+
+        <div class="filter__list">
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Марокко
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Модерн
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Модерн
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Английский
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Восточный
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Декоративный
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Классический
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Лофт
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Прованс
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Современный
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    С орнаментом
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    3D
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Пэчворк
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter__item">
+        <div class="filter__title">Цвет</div>
+
+        <div class="filter__list">
+            <div class="filter__label">
+                <label class="checkbox checkbox-color">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Белый
+                    <span class="color"
+                        style="border: 1px solid #D9D9D9"></span>
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox checkbox-color">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Серый
+                    <span class="color" style="background: #E6E6E6"></span>
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox checkbox-color">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Бежевый
+                    <span class="color" style="background: #F1E2CD"></span>
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox checkbox-color">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Коричневый
+                    <span class="color" style="background: #614D44"></span>
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox checkbox-color">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Черный
+                    <span class="color" style="background: #000"></span>
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox checkbox-color">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Красный
+                    <span class="color" style="background: red"></span>
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox checkbox-color">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Антрацит
+                    <span class="color" style="background: #45464B"></span>
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox checkbox-color">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Салатовый
+                    <span class="color" style="background: #96D365"></span>
+                </label>
+            </div>
+            <div class="filter__hide">
+                <div class="filter__label">
+                    <label class="checkbox checkbox-color">
+                        <input type="checkbox" name="">
+                        <span class="check"></span>
+                        Черный
+                        <span class="color" style="background: #000"></span>
+                    </label>
+                </div>
+                <div class="filter__label">
+                    <label class="checkbox checkbox-color">
+                        <input type="checkbox" name="">
+                        <span class="check"></span>
+                        Красный
+                        <span class="color" style="background: red"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="show-all-filter"><a href="#">Показать все</a></div>
+        </div>
+    </div>
+
+    <div class="filter__item">
+        <div class="filter__title">Размер, см</div>
+
+        <div class="filter__list">
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    30x30
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    30x60
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    40х40
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    45x45
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    50x50
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    60x60
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    60x90
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    60x120
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    80x80
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter__item">
+        <div class="filter__title">Толщина, мм</div>
+
+        <div class="filter__list">
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    9
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    10
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    13
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter__item">
+        <div class="filter__title">Форма</div>
+
+        <div class="filter__list">
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Квадрат
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Прямоугольник
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Треугольник
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Ромб
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Соты
+                </label>
+            </div>
+            <div class="filter__label">
+                <label class="checkbox">
+                    <input type="checkbox" name="">
+                    <span class="check"></span>
+                    Шестигранник
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <div class="filter__btns">
+        <a href="#" class="btn btn-brown">Применить</a>
+        <a href="#" class="reset-filter">Сбросить</a>
+    </div>
+
+</div>
+                <div class="catalog__cards">
+                    <div class="card-column">
+                        
+                        <div class="card-long">
+                            <div class="card-hit">хит</div>
+                            <a href="img/tovar/l1.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l1.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под мрамор</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Противоскользящая
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Модерн
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <a href="img/tovar/l2.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l2.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под оникс</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Матовая
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Английский
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <div class="card-hit">хит</div>
+                            <a href="img/tovar/l3.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l3.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под камень</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Лаппатированная
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> С орнаментом
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <div class="card-hit">хит</div>
+                            <a href="img/tovar/l4.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l4.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под бетон</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Рельефная
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Пэчворк
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <div class="card-hit">хит</div>
+                            <a href="img/tovar/l5.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l5.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под Глянцевая</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Противоскользящая
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Лофт
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <div class="card-hit">хит</div>
+                            <a href="img/tovar/l6.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l6.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под паркет</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Противоскользящая
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Восточный
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <a href="img/tovar/l7.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l7.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под мрамор</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Противоскользящая
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Модерн
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <div class="card-hit">хит</div>
+                            <a href="img/tovar/l8.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l8.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под ткань</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Матовая
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Прованс
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <div class="card-hit">хит</div>
+                            <a href="img/tovar/l9.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l9.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под металл</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Матовая
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Прованс
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="#" class="btn btn-wbrown">Показать ещё</a>
+                    <div class="pagination">
+                        <a href="" class="pagination__prev ">Назад</a>
+                        <ul class="pagination__list">
+                            <li><a href="#">1</a></li>
+                            <li><a href="#" class="active">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">..</a></li>
+                            <li><a href="#">28</a></li>
+                        </ul>
+                        <a href="" class="pagination__next">Вперёд</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section class="s-subscribe">
+    <div class="container">
+        <div class="s-title-mini">Подпишитесь на рассылку, чтобы первыми <br> получать акции, новости и спецпредложения</div>
+        <form action="" class="subscribe-form">
+            <input type="text" class="input" placeholder="Ваш email">
+            <button class="btn btn-border">Подписаться на рассылку</button>
+        </form>
+    </div>
+</section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__left">
+            <a href="#" class="logo">
+                Sal Sapiente <img src="img/logo.svg" alt="">
+            </a>
+            <p>Москва, Научный проезд, дом 17, бизнес-центр «9 акров»</p>
+            <p>
+                <a href="tel:+74958775798">+7 495 877 57 98</a> <br>
+                <a href="mailto:sale@salsapiente.ru">sale@salsapiente.ru</a>
+            </p>
+            <p>
+                понедельник-пятница <br> с 09:00 до 18:00
+            </p>
+            <div class="write">
+                <a href="#"><img src="img/write.svg" alt=""> Написать директору</a>
+            </div>
+            <div class="footer__socials">
+                <a href="#"><img src="img/fb.svg" alt=""></a>
+                <a href="#"><img src="img/insta.svg" alt=""></a>
+                <a href="#"><img src="img/youtube.svg" alt=""></a>
+            </div>
+        </div>
+
+        <div class="footer__right">
+            <div class="footer__item">
+                <h3>О компании</h3>
+                <nav class="footer__nav">
+                    <ul>
+                        <li><a href="#">О нас</a></li>
+                        <li><a href="#">Философия бренда</a></li>
+                        <li><a href="#">Производство</a></li>
+                        <li><a href="#">Сотрудничество</a></li>
+                        <li><a href="#">Лицензии и сертификаты</a></li>
+                        <li><a href="#">Материалы для скачивания</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__item">
+                <h3>Клиентам</h3>
+                <nav class="footer__nav">
+                    <ul>
+                        <li><a href="#">Акции и скидки</a></li>
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Гарантия</a></li>
+                        <li><a href="#">Возврат и обмен</a></li>
+                        <li><a href="#">Покупка в кредит</a></li>
+                        <li><a href="#">Новости и статьи</a></li>
+                        <li><a href="#">Потфолио</a></li>
+                        <li><a href="#">3D-дизайн проект</a></li>
+                        <li><a href="#">3D-моделирование</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__item">
+                <h3>Каталог товаров</h3>
+                <nav class="footer__nav">
+                    <ul>
+                        <li><a href="#">Керамическая плитка</a></li>
+                        <li><a href="#">Керамогранит</a></li>
+                        <li><a href="#">Мозаика</a></li>
+                        <li><a href="#">Панно</a></li>
+                        <li><a href="#">Декор</a></li>
+                    </ul>
+                </nav>
+                <a href="#" class="price-list-link">Прайс-лист</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bot">
+        <div class="container">
+            <p>©2020, Сеть фирменных магазинов керамогранита Sal Sapiente. Политика конфиденциальности.</p>
+            <a href="#">Дизайн — студия Арбуз</a>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+<script src="js/ion.rangeSlider.min.js"></script>
+<script src="js/main.js"></script>
+
+
+<script>
+    var priceMin = $('.price-range__min');
+    var priceMax = $('.price-range__max');
+    var pricePange = $(".price-range").ionRangeSlider({
+        type: "double",
+        min: 100,
+        max: 1000,
+        from: 400,
+        to: 600,
+        drag_interval: true,
+        min_interval: null,
+        max_interval: null,
+        onStart: function (data) {
+            priceMin.val(data.from)
+            priceMax.val(data.to)
+        },
+        onChange: function (data) {
+            priceMin.val(data.from)
+            priceMax.val(data.to)
+        },
+    });
+
+    var pricePangeChange = pricePange.data("ionRangeSlider");
+
+    priceMin.change(function(){
+        var priceMinVal = Number($(this).val());
+        var priceMaxVal = priceMax.val();
+        console.log(priceMinVal)
+        if( priceMinVal > priceMaxVal ){
+            priceMinVal = priceMaxVal;
+            $(this).val(priceMinVal);
+            console.log(priceMinVal)
+        }
+        if( pricePangeChange.result.min > priceMinVal ){
+            priceMinVal = pricePangeChange.result.min;
+            $(this).val(priceMinVal);
+        }
+        pricePangeChange.update({
+            from: priceMinVal,
+        });
+    });
+    priceMax.change(function(){
+        var priceMinVal = priceMin.val();
+        var priceMaxVal = Number($(this).val());
+        if( priceMaxVal < priceMinVal ){
+            priceMaxVal = priceMinVal;
+            $(this).val(priceMaxVal);
+        }
+        if( pricePangeChange.result.max < priceMaxVal ){
+            priceMaxVal = pricePangeChange.result.max;
+            $(this).val(priceMaxVal);
+            console.log(priceMaxVal)
+        }
+        pricePangeChange.update({
+            to: priceMaxVal,
+        });
+    });
+
+    
+</script>
+
+
+</body>
+
+</html>

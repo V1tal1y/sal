@@ -1,0 +1,379 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/razdel/" title="Каталог" itemprop="item">
+                <span itemprop="name">Каталог</span>
+                <meta itemprop="position" content="1">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/razdel/podrazdel/" title="Керамогранит" itemprop="item">
+                <span itemprop="name">Керамогранит</span>
+                <meta itemprop="position" content="2">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Товары</span>
+        </li>
+    </ul>
+</div>
+<main>
+
+    <section class="s-catalog">
+        <div class="container" itemtype="http://schema.org/Product" itemscope>
+            <h1 class="catalog-title">
+                <meta itemprop="name" content="Керамическая плитка" />
+                Керамическая плитка
+                <span itemprop="offerCount">7 380 товаров</span>
+            </h1>
+            <div itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                <meta itemprop="itemCondition" content="https://schema.org/UsedCondition" />
+                <meta itemprop="lowPrice" content="11.99" />
+                <meta itemprop="highPrice" content="1999.99" />
+                <meta itemprop="offerCount" content="15780" />
+                <meta itemprop="priceCurrency" content="RUB" />
+            </div>
+            <div class="tags">
+                <a href="#">под мрамор со скидкой</a>
+                <a href="#">матовый 60х60</a>
+                <a href="#">красный 30х30</a>
+                <a href="#">30х30</a>
+                <a href="#">чёрный матовый</a>
+                <a href="#">квадрат под дерево</a>
+                <a href="#">противоскользящий винтаж</a>
+                <a href="#">хит под оникс</a>
+                <a href="#">под мрамор со скидкой</a>
+                <a href="#">матовый 60х60</a>
+                <a href="#">красный 30х30</a>
+                <a href="#">чёрный матовый</a>
+                <a href="#">квадрат под дерево</a>
+                <a href="#">хит под оникс</a>
+                <div class="btn-all-tags">показать еще </div>
+            </div>
+
+            <div class="catalog-controls">
+                <div class="sorting">
+                    <div class="catalog-controls__title">Сортировать</div>
+                    <div class="sorting__types">
+                        <a href="#" class="active">по умолчанию</a>
+                        <a href="#">цене</a>
+                        <a href="#">алфавиту</a>
+                    </div>
+                </div>
+                <div class="show-cards">
+                    <div class="catalog-controls__title">Показывать по</div>
+                    <a href="#" class="active">40</a>
+                    <a href="#">80</a>
+                    <a href="#">120</a>
+                </div>
+                <div class="show-type">
+                    <a href="#">Товары</a>
+                    <a href="#" class="active">Коллекции</a>
+                </div>
+                <div class="show-filter">Фильтр</div>
+            </div>
+
+            <div class="catalog">
+
+                <!-- @import #sorse/kit/filter2.kit -->
+
+                <div class="catalog__cards">
+                    
+                    <div class="card-column">
+                        
+                        <div class="card-long">
+                            <div class="card-hit">хит</div>
+                            <a href="img/tovar/l1.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l1.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под мрамор</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Противоскользящая
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Модерн
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <a href="img/tovar/l2.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l2.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под оникс</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Матовая
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Английский
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <div class="card-hit">хит</div>
+                            <a href="img/tovar/l3.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l3.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под камень</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Лаппатированная
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> С орнаментом
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <div class="card-hit">хит</div>
+                            <a href="img/tovar/l4.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l4.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под бетон</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Рельефная
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Пэчворк
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <div class="card-hit">хит</div>
+                            <a href="img/tovar/l5.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l5.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под Глянцевая</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Противоскользящая
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Лофт
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <div class="card-hit">хит</div>
+                            <a href="img/tovar/l6.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l6.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под паркет</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Противоскользящая
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Восточный
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <a href="img/tovar/l7.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l7.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под мрамор</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Противоскользящая
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Модерн
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <div class="card-hit">хит</div>
+                            <a href="img/tovar/l8.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l8.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под ткань</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Матовая
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Прованс
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                        
+                        <div class="card-long">
+                            <div class="card-hit">хит</div>
+                            <a href="img/tovar/l9.jpg" class="card-long__img" data-fancybox>
+                                <img src="img/tovar/l9.jpg" alt="">
+                            </a>
+                            <div class="card-long__text">
+                                <a href="#" class="card-long__name">Под металл</a>
+                                <ul class="card-long__info">
+                                    <li>
+                                        <span>Поверхность</span> Матовая
+                                    </li>
+                                    <li>
+                                        <span>Стиль</span> Прованс
+                                    </li>
+                                </ul>
+                                <div class="card-long__price">
+                                    500 ₽ за м²
+                                </div>
+                                <a href="#" class="btn btn-border">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn btn-wbrown">Показать ещё</a>
+                    <div class="pagination">
+                        <a href="" class="pagination__prev none">Назад</a>
+                        <ul class="pagination__list">
+                            <li><a href="#" class="active">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">..</a></li>
+                            <li><a href="#">28</a></li>
+                        </ul>
+                        <a href="" class="pagination__next">Вперёд</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+<script>
+    var priceMin = $('.price-range__min');
+    var priceMax = $('.price-range__max');
+    var pricePange = $(".price-range").ionRangeSlider({
+        type: "double",
+        min: 100,
+        max: 1000,
+        from: 400,
+        to: 600,
+        drag_interval: true,
+        min_interval: null,
+        max_interval: null,
+        onStart: function (data) {
+            priceMin.val(data.from)
+            priceMax.val(data.to)
+        },
+        onChange: function (data) {
+            priceMin.val(data.from)
+            priceMax.val(data.to)
+        },
+    });
+
+    var pricePangeChange = pricePange.data("ionRangeSlider");
+
+    priceMin.change(function () {
+        var priceMinVal = Number($(this).val());
+        var priceMaxVal = priceMax.val();
+        console.log(priceMinVal)
+        if (priceMinVal > priceMaxVal) {
+            priceMinVal = priceMaxVal;
+            $(this).val(priceMinVal);
+            console.log(priceMinVal)
+        }
+        if (pricePangeChange.result.min > priceMinVal) {
+            priceMinVal = pricePangeChange.result.min;
+            $(this).val(priceMinVal);
+        }
+        pricePangeChange.update({
+            from: priceMinVal,
+        });
+    });
+    priceMax.change(function () {
+        var priceMinVal = priceMin.val();
+        var priceMaxVal = Number($(this).val());
+        if (priceMaxVal < priceMinVal) {
+            priceMaxVal = priceMinVal;
+            $(this).val(priceMaxVal);
+        }
+        if (pricePangeChange.result.max < priceMaxVal) {
+            priceMaxVal = pricePangeChange.result.max;
+            $(this).val(priceMaxVal);
+            console.log(priceMaxVal)
+        }
+        pricePangeChange.update({
+            to: priceMaxVal,
+        });
+    });
+
+
+</script>
+
+
+</body>
+
+</html>

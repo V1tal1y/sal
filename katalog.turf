@@ -1,0 +1,821 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/razdel/" title="Каталог" itemprop="item">
+                <span itemprop="name">Каталог</span>
+                <meta itemprop="position" content="1">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/razdel/podrazdel/" title="Керамогранит" itemprop="item">
+                <span itemprop="name">Керамогранит</span>
+                <meta itemprop="position" content="2">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Товары</span>
+        </li>
+    </ul>
+</div>
+<main>
+
+    <section class="s-catalog">
+        <div class="container" itemtype="http://schema.org/Product" itemscope>
+            <h1 class="catalog-title">
+                <meta itemprop="name" content="Executive Anvil" />
+                Керамогранит
+                <span>15 780 оваров</span>
+            </h1>
+            <div itemprop="offers" itemtype="http://schema.org/Offer" itemscope>
+                <meta itemprop="itemCondition" content="https://schema.org/UsedCondition" />
+                <meta itemprop="lowPrice" content="11.99" />
+                <meta itemprop="highPrice" content="1999.99" />
+                <meta itemprop="offerCount" content="15780" />
+                <meta itemprop="priceCurrency" content="RUB" />
+            </div>
+            <div class="tags">
+                <a href="#">под мрамор со скидкой</a>
+                <a href="#">матовый 60х60</a>
+                <a href="#">красный 30х30</a>
+                <a href="#">30х30</a>
+                <a href="#">чёрный матовый</a>
+                <a href="#">квадрат под дерево</a>
+                <a href="#">противоскользящий винтаж</a>
+                <a href="#">хит под оникс</a>
+                <a href="#">под мрамор со скидкой</a>
+                <a href="#">матовый 60х60</a>
+                <a href="#">красный 30х30</a>
+                <a href="#">чёрный матовый</a>
+                <a href="#">квадрат под дерево</a>
+                <a href="#">хит под оникс</a>
+                <a href="#">под мрамор со скидкой</a>
+                <a href="#">матовый 60х60</a>
+                <a href="#">красный 30х30</a>
+                <a href="#">чёрный матовый</a>
+                <a href="#">квадрат под дерево</a>
+                <a href="#">противоскользящий винтаж</a>
+                <a href="#">хит под оникс</a>
+                <a href="#">под мрамор со скидкой</a>
+                <a href="#">матовый 60х60</a>
+                <a href="#">красный 30х30</a>
+                <a href="#">чёрный матовый</a>
+                <a href="#">квадрат под дерево</a>
+                <a href="#">противоскользящий винтаж</a>
+                <a href="#">хит под оникс</a>
+                <div class="btn-all-tags">показать еще </div>
+            </div>
+
+            <div class="catalog-controls">
+                <div class="sorting">
+                    <div class="catalog-controls__title">Сортировать</div>
+                    <div class="sorting__types">
+                        <a href="#" class="active">по умолчанию</a>
+                        <a href="#">цене</a>
+                        <a href="#">алфавиту</a>
+                    </div>
+                </div>
+                <div class="show-cards">
+                    <div class="catalog-controls__title">Показывать по</div>
+                    <a href="#" class="active">40</a>
+                    <a href="#">80</a>
+                    <a href="#">120</a>
+                </div>
+                <div class="show-type">
+                    <a href="#" class="active">Товары</a>
+                    <a href="#">Текстуры</a>
+                    <a href="#">Коллекции</a>
+                </div>
+                <div class="show-filter">Фильтр</div>
+            </div>
+
+            <div class="catalog">
+
+                <!-- @import #sorse/kit/filter.kit -->
+
+                <div class="catalog__cards">
+                    <div class="card-list">
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/1.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/1.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/2.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/2.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/3.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/3.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/1.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/1.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/2.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/5.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/3.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/3.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/1.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/1.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/2.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/2.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/3.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/3.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/1.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/1.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/2.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/2.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/3.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/3.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/1.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/1.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/2.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/2.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/3.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/3.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/1.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/1.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/2.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/2.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__hit">хит</div>
+                            <a href="img/tovar/3.jpg" class="card__img" data-fancybox>
+                                <img src="img/tovar/3.jpg" alt="">
+                            </a>
+                            <div class="card__code">SPP 8831 A</div>
+                            <div class="card__name">
+                                <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                            </div>
+                            <ul class="card__info">
+                                <li>
+                                    <span>Коллекция</span>
+                                    <a href="#">
+                                        Art Stone
+                                    </a>
+                                </li>
+                                <li>
+                                    <span>Размер</span> 30х30см
+                                </li>
+                                <li>
+                                    <span>Наличие</span> На складе
+                                </li>
+                            </ul>
+                            <div class="card__price">
+                                500 ₽ за м²
+                            </div>
+                            <div class="card__hidden">
+                                <a href="#" class="btn btn-brown">В корзину</a>
+                                <div class="card__link"><a href="#">Сравнить</a></div>
+                                <div class="card__link"><a href="#">В избранное</a></div>
+                                <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <a href="#" class="btn btn-wbrown">Показать ещё</a>
+                    <div class="pagination">
+                        <a href="" class="pagination__prev none">Назад</a>
+                        <ul class="pagination__list">
+                            <li><a href="#" class="active">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">..</a></li>
+                            <li><a href="#">28</a></li>
+                        </ul>
+                        <a href="" class="pagination__next">Вперёд</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+<script>
+    var priceMin = $('.price-range__min');
+    var priceMax = $('.price-range__max');
+    var pricePange = $(".price-range").ionRangeSlider({
+        type: "double",
+        min: 100,
+        max: 1000,
+        from: 400,
+        to: 600,
+        drag_interval: true,
+        min_interval: null,
+        max_interval: null,
+        onStart: function (data) {
+            priceMin.val(data.from)
+            priceMax.val(data.to)
+        },
+        onChange: function (data) {
+            priceMin.val(data.from)
+            priceMax.val(data.to)
+        },
+    });
+
+    var pricePangeChange = pricePange.data("ionRangeSlider");
+
+    priceMin.change(function () {
+        var priceMinVal = Number($(this).val());
+        var priceMaxVal = priceMax.val();
+        console.log(priceMinVal)
+        if (priceMinVal > priceMaxVal) {
+            priceMinVal = priceMaxVal;
+            $(this).val(priceMinVal);
+            console.log(priceMinVal)
+        }
+        if (pricePangeChange.result.min > priceMinVal) {
+            priceMinVal = pricePangeChange.result.min;
+            $(this).val(priceMinVal);
+        }
+        pricePangeChange.update({
+            from: priceMinVal,
+        });
+    });
+    priceMax.change(function () {
+        var priceMinVal = priceMin.val();
+        var priceMaxVal = Number($(this).val());
+        if (priceMaxVal < priceMinVal) {
+            priceMaxVal = priceMinVal;
+            $(this).val(priceMaxVal);
+        }
+        if (pricePangeChange.result.max < priceMaxVal) {
+            priceMaxVal = pricePangeChange.result.max;
+            $(this).val(priceMaxVal);
+            console.log(priceMaxVal)
+        }
+        pricePangeChange.update({
+            to: priceMaxVal,
+        });
+    });
+
+
+</script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,227 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Новости и статьи</span>
+        </li>
+    </ul>
+</div>
+
+<main>
+    <section class="s-news-list">
+        <div class="container">
+            <div class="s-title">Новости и статьи</div>
+
+            <div class="catalog-controls news-list-controls">
+                <div class="sorting-news">
+                    <a href="#" class="active">Все</a>
+                    <a href="#">Новости</a>
+                    <a href="#">Статьи</a>
+                </div>
+                <div class="show-cards">
+                    <div class="catalog-controls__title">Показывать по</div>
+                    <a href="#" class="active">10</a>
+                    <a href="#">20</a>
+                    <a href="#">40</a>
+                </div>
+            </div>
+
+
+            <div class="news-list">
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l6.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l1.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l2.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l3.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l4.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l5.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l7.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l8.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l4.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l5.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l7.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l8.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+            </div>
+            <a href="#" class="btn btn-wbrown btn-all-items">Показать ещё</a>
+            <div class="pagination">
+                <a href="" class="pagination__prev none">Назад</a>
+                <ul class="pagination__list">
+                    <li><a href="#" class="active">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">..</a></li>
+                    <li><a href="#">28</a></li>
+                </ul>
+                <a href="" class="pagination__next">Вперёд</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+
+
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+
+
+<script src="//www.youtube.com/player_api"></script>
+
+<script>
+    var player = [];
+
+    function onYouTubeIframeAPIReady() {
+        player[0] = new YT.Player('video1', {
+            height: 'auto',
+            width: 'auto',
+            videoId: '6d8_PaiCXBI',
+        });
+        player[1] = new YT.Player('video2', {
+            height: 'auto',
+            width: 'auto',
+            videoId: '6d8_PaiCXBI',
+        });
+    }
+    $(document).on('click', '.video__placeholder', function () {
+        $(this).hide(0);
+        var playerVider = Number($(this).attr('data-id'));
+        player[playerVider].playVideo();
+    });
+</script>
+
+
+</body>
+
+</html>

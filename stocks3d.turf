@@ -1,0 +1,142 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="#" title="Акции и скидки" itemprop="item">
+                <span itemprop="name">Акции и скидки</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Акции и скидки</span>
+        </li>
+    </ul>
+</div>
+
+<main>
+    <section class="s-stocks3d">
+        <div class="container">
+            <h1 class="s-title">3D-дизайн проект в подарок</h1>
+            <p>Мы делаем визуализацию и 3D-дизайн проект в подарок всем покупателям. Чтобы получить дизайн-проект, оставьте заявку</p>
+            <form class="stocks3d-form">
+                <label>
+                    <input type="email" placeholder="Ваш email">
+                </label>
+                <label>
+                    <input type="tel" placeholder="Ваш телефон">
+                </label>
+                <button class="btn btn-brown">Оставить заявку</button>
+                <div class="stocks3d-form__bot">Нажимая на кнопку, вы соглашаетесь с нашей Политикой конфиденциальности</div>
+            </form>
+        </div>
+    </section>
+
+    <section class="s-completed-projects">
+        <div class="container">
+            <div class="s-title-mini">Выполненные проекты</div>
+            <div class="__types">
+                <a href="#" class="active">Все</a>
+                <a href="#">Ванные</a>
+                <a href="#">Кухни</a>
+                <a href="#">Прихожие</a>
+                <a href="#">Гостинные</a>
+                <a href="#">Спальни</a>
+            </div>
+            <div class="other-textures">
+                <a href="#" class="other-textures__item">
+                    <span class="other-textures__img">
+                        <img src="img/tovar/l5.jpg" alt="">
+                    </span>
+                    Кухня 25,2 м²
+                </a>
+                <a href="#" class="other-textures__item">
+                    <span class="other-textures__img">
+                        <img src="img/tovar/l6.jpg" alt="">
+                    </span>
+                    Ванная комната 6,2 м²
+                </a>
+                <a href="#" class="other-textures__item">
+                    <span class="other-textures__img">
+                        <img src="img/tovar/l7.jpg" alt="">
+                    </span>
+                    Туалет 2,6 м²
+                </a>
+                <a href="#" class="other-textures__item">
+                    <span class="other-textures__img">
+                        <img src="img/tovar/l8.jpg" alt="">
+                    </span>
+                    Душевая с туалетом 6,7 м²
+                </a>
+                <a href="#" class="other-textures__item">
+                    <span class="other-textures__img">
+                        <img src="img/tovar/l5.jpg" alt="">
+                    </span>
+                    Кухня 25,2 м²
+                </a>
+                <a href="#" class="other-textures__item">
+                    <span class="other-textures__img">
+                        <img src="img/tovar/l6.jpg" alt="">
+                    </span>
+                    Ванная комната 6,2 м²
+                </a>
+                <a href="#" class="other-textures__item">
+                    <span class="other-textures__img">
+                        <img src="img/tovar/l7.jpg" alt="">
+                    </span>
+                    Туалет 2,6 м²
+                </a>
+                <a href="#" class="other-textures__item">
+                    <span class="other-textures__img">
+                        <img src="img/tovar/l8.jpg" alt="">
+                    </span>
+                    Душевая с туалетом 6,7 м²
+                </a>
+                <a href="#" class="other-textures__item">
+                    <span class="other-textures__img">
+                        <img src="img/tovar/l5.jpg" alt="">
+                    </span>
+                    Кухня 25,2 м²
+                </a>
+                <a href="#" class="other-textures__item">
+                    <span class="other-textures__img">
+                        <img src="img/tovar/l6.jpg" alt="">
+                    </span>
+                    Ванная комната 6,2 м²
+                </a>
+                <a href="#" class="other-textures__item">
+                    <span class="other-textures__img">
+                        <img src="img/tovar/l7.jpg" alt="">
+                    </span>
+                    Туалет 2,6 м²
+                </a>
+                <a href="#" class="other-textures__item">
+                    <span class="other-textures__img">
+                        <img src="img/tovar/l8.jpg" alt="">
+                    </span>
+                    Душевая с туалетом 6,7 м²
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+
+
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+</body>
+
+</html>

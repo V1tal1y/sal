@@ -1,0 +1,493 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/razdel/" title="Каталог" itemprop="item">
+                <span itemprop="name">Каталог</span>
+                <meta itemprop="position" content="1">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/razdel/podrazdel/" title="Керамогранит" itemprop="item">
+                <span itemprop="name">Керамогранит</span>
+                <meta itemprop="position" content="2">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Плитка настенная Wonder Home 30х30 голубая</span>
+        </li>
+    </ul>
+</div>
+
+<main>
+    <section class="card-tile">
+        <div class="container" itemtype="http://schema.org/Product" itemscope>
+            <h1 class="p-title" itemprop="name">Плитка настенная Wonder Home 30х30 голубая</h1>
+            <div class="card-tile__images">
+                <div class="swiper-container card-tile__gallery-top">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/tovar/8.jpg" alt="" itemprop="image"></div>
+                    </div>
+                    <div class="swiper-btn swiper-button-next"></div>
+                    <div class="swiper-btn swiper-button-prev"></div>
+                </div>
+                <div class="swiper-container card-tile__gallery-thumbs">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="img/tovar/8.jpg" alt=""></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-characteristics" itemprop="description">
+                <div class="card-characteristics__list">
+                    <div class="card-characteristics__item" itemprop="brand" itemtype="http://schema.org/Brand" itemscope>
+                        <div class="card-characteristics__label">Коллекция</div>
+                        <div class="card-characteristics__value"><a href="#"  itemprop="name">Wonder Home</a></div>
+                    </div>
+                </div>
+
+                <div class="card-characteristics__list">
+                    <div class="card-characteristics__item">
+                        <div class="card-characteristics__label">Артикул</div>
+                        <div class="card-characteristics__value">GSM 6675</div>
+                    </div>
+                </div>
+
+                <div class="card-characteristics__list">
+                    <div class="card-characteristics__item">
+                        <div class="card-characteristics__label">Назначение</div>
+                        <div class="card-characteristics__value">Для пола</div>
+                    </div>
+                    <div class="card-characteristics__item">
+                        <div class="card-characteristics__label">Назначение</div>
+                        <div class="card-characteristics__value">Помещение</div>
+                    </div>
+                </div>
+
+                <div class="card-characteristics__list">
+                    <div class="card-characteristics__item">
+                        <div class="card-characteristics__label">Стиль</div>
+                        <div class="card-characteristics__value">Лофт</div>
+                    </div>
+                    <div class="card-characteristics__item">
+                        <div class="card-characteristics__label">Текстура</div>
+                        <div class="card-characteristics__value">Под ткань</div>
+                    </div>
+                    <div class="card-characteristics__item">
+                        <div class="card-characteristics__label">Цвет</div>
+                        <div class="card-characteristics__value">Голубой <div class="card-characteristics__color"
+                                style="background:#D2E3EF"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-characteristics__list">
+                    <div class="card-characteristics__item">
+                        <div class="card-characteristics__label">Размер, см</div>
+                        <div class="card-characteristics__value">60х60</div>
+                    </div>
+                    <div class="card-characteristics__item">
+                        <div class="card-characteristics__label">Толщина, мм</div>
+                        <div class="card-characteristics__value">9</div>
+                    </div>
+                    <div class="card-characteristics__item">
+                        <div class="card-characteristics__label">Форма</div>
+                        <div class="card-characteristics__value">Квадрат</div>
+                    </div>
+                </div>
+
+                <div class="card-characteristics__list">
+                    <div class="card-characteristics__item">
+                        <div class="card-characteristics__label">Вес упаковки</div>
+                        <div class="card-characteristics__value">27.5 кг</div>
+                    </div>
+                    <div class="card-characteristics__item">
+                        <div class="card-characteristics__label">Площадь плитки</div>
+                        <div class="card-characteristics__value">0.24 м²</div>
+                    </div>
+                    <div class="card-characteristics__item">
+                        <div class="card-characteristics__label">Кол-во м² в упак.</div>
+                        <div class="card-characteristics__value">1.44 м²</div>
+                    </div>
+                    <div class="card-characteristics__item">
+                        <div class="card-characteristics__label">Кол-во штук в упак.</div>
+                        <div class="card-characteristics__value">6 шт</div>
+                    </div>
+                </div>
+                <div class="btn btn-wbrown">Развернуть все характеристики</div>
+            </div>
+
+            <div class="card-order">
+                <div class="card-order__price-one" itemprop="price" content="900.00">
+                    900 <span itemprop="priceCurrency" content="RUB">руб.</span> / шт.
+                </div>
+
+                <div class="card-order__stock">
+                    <b>Наличие на складе</b>
+                    <b itemprop="availability" content="https://schema.org/InStock">2347 шт.</b>
+                </div>
+                <div class="choose-quantity">
+                    <div class="counter">
+                        <div class="counter__btn minus">
+                            <svg width="10" height="2" viewBox="0 0 10 2" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1H9" stroke-linecap="square" stroke-linejoin="round" /></svg>
+                        </div>
+                        <input type="text" class="counter__input" value="1" readonly>
+                        <div class="counter__btn plus">
+                            <svg width="9" height="10" viewBox="0 0 9 10" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 5H8" stroke-linecap="square" stroke-linejoin="round" />
+                                <path d="M4 1L4 9" stroke-linecap="square" stroke-linejoin="round" /></svg>
+                        </div>
+                    </div>
+                    <div class="choose-quantity__type">
+                        <label class="radio-square">
+                            <input type="radio" checked name="price-per">
+                            <span class="check">шт</span>
+                        </label>
+                        <label class="radio-square">
+                            <input type="radio" name="price-per">
+                            <span class="check">м²</span>
+                        </label>
+                        <label class="radio-square">
+                            <input type="radio" checked name="price-per">
+                            <span class="check">уп.</span>
+                        </label>
+                    </div>
+                    <div class="choose-quantity__bot">
+                        7,2 м², 2 упаковки
+                    </div>
+                </div>
+
+                <div class="all-price">
+                    Общая сумма
+                    <b>23 450 руб.</b>
+                </div>
+
+                <a href="#" class="btn btn-brown">Добавить в корзину</a>
+                <a href="#" class="btn btn-border">Быстрый заказ</a>
+                <div class="card-order__credit">В кредит <span>от 150 ₽ / мес</span></div>
+
+                <ul class="card-delivery">
+                    <li>
+                        <div class="card-delivery__label">
+                            Доставка
+                            <div class="help-icon">
+                                ?
+                                <div class="help-icon__text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Nesciunt, nemo voluptatum veritatis quasi exercitationem distinctio.</p></div>
+                            </div>
+                        </div>
+                        <div class="card-delivery__value">до 3х дней</div>
+                    </li>
+                    <li>
+                        <div class="card-delivery__label">
+                            Самовывоз
+                            <div class="help-icon">
+                                ?
+                                <div class="help-icon__text"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Nesciunt, nemo voluptatum veritatis quasi exercitationem distinctio.</p></div>
+                            </div>
+                        </div>
+                        <div class="card-delivery__value">Завтра</div>
+                    </li>
+                </ul>
+                <ul class="card-order__links">
+                    <li><a href="#">Сравнить</a></li>
+                    <li><a href="#">В избранное</a></li>
+                </ul>
+            </div>
+
+
+            <div style="display: none;" itemprop="review" itemtype="http://schema.org/Review" itemscope>
+                <div itemprop="author" itemtype="http://schema.org/Person" itemscope>
+                    <meta itemprop="name" content="Fred Benson" />
+                </div>
+                <div itemprop="reviewRating" itemtype="http://schema.org/Rating" itemscope>
+                    <meta itemprop="ratingValue" content="4" />
+                    <meta itemprop="bestRating" content="5" />
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="s-cards-section">
+        <div class="container">
+            <div class="s-title-mini">Плитка из этой коллекции</div>
+            <div class="cards-items one-row">
+                <div class="card">
+                    <div class="card__hit">хит</div>
+                    <a href="img/tovar/7.jpg" class="card__img" data-fancybox>
+                        <img src="img/tovar/7.jpg" alt="">
+                    </a>
+                    <div class="card__code">SPP 8831 A</div>
+                    <div class="card__name">
+                        <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                    </div>
+                    <ul class="card__info">
+                        <li>
+                            <span>Коллекция</span>
+                            <a href="#">
+                                Art Stone
+                            </a>
+                        </li>
+                        <li>
+                            <span>Размер</span> 30х30см
+                        </li>
+                        <li>
+                            <span>Наличие</span> На складе
+                        </li>
+                    </ul>
+                    <div class="card__price">
+                        500 ₽ за м²
+                    </div>
+
+                    <div class="card__hidden">
+                        <a href="#" class="btn btn-brown">В корзину</a>
+                        <div class="card__link"><a href="#">Сравнить</a></div>
+                        <div class="card__link"><a href="#">В избранное</a></div>
+                        <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__hit">хит</div>
+                    <a href="img/tovar/8.jpg" class="card__img" data-fancybox>
+                        <img src="img/tovar/8.jpg" alt="">
+                    </a>
+                    <div class="card__code">SPP 8831 A</div>
+                    <div class="card__name">
+                        <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                    </div>
+                    <ul class="card__info">
+                        <li>
+                            <span>Коллекция</span>
+                            <a href="#">
+                                Art Stone
+                            </a>
+                        </li>
+                        <li>
+                            <span>Размер</span> 30х30см
+                        </li>
+                        <li>
+                            <span>Наличие</span> На складе
+                        </li>
+                    </ul>
+                    <div class="card__price">
+                        500 ₽ за м²
+                    </div>
+                    <div class="card__hidden">
+                        <a href="#" class="btn btn-brown">В корзину</a>
+                        <div class="card__link"><a href="#">Сравнить</a></div>
+                        <div class="card__link"><a href="#">В избранное</a></div>
+                        <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <a href="img/tovar/9.jpg" class="card__img" data-fancybox>
+                        <img src="img/tovar/9.jpg" alt="">
+                    </a>
+                    <div class="card__code">SPP 8831 A</div>
+                    <div class="card__name">
+                        <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                    </div>
+                    <ul class="card__info">
+                        <li>
+                            <span>Коллекция</span>
+                            <a href="#">
+                                Art Stone
+                            </a>
+                        </li>
+                        <li>
+                            <span>Размер</span> 30х30см
+                        </li>
+                        <li>
+                            <span>Наличие</span> На складе
+                        </li>
+                    </ul>
+                    <div class="card__price">
+                        500 ₽ за м²
+                    </div>
+
+                    <div class="card__hidden">
+                        <a href="#" class="btn btn-brown">В корзину</a>
+                        <div class="card__link"><a href="#">Сравнить</a></div>
+                        <div class="card__link"><a href="#">В избранное</a></div>
+                        <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__hit">хит</div>
+                    <a href="img/tovar/10.jpg" class="card__img" data-fancybox>
+                        <img src="img/tovar/10.jpg" alt="">
+                    </a>
+                    <div class="card__code">SPP 8831 A</div>
+                    <div class="card__name">
+                        <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                    </div>
+                    <ul class="card__info">
+                        <li>
+                            <span>Коллекция</span>
+                            <a href="#">
+                                Art Stone
+                            </a>
+                        </li>
+                        <li>
+                            <span>Размер</span> 30х30см
+                        </li>
+                        <li>
+                            <span>Наличие</span> На складе
+                        </li>
+                    </ul>
+                    <div class="card__price">
+                        500 ₽ за м²
+                    </div>
+
+                    <div class="card__hidden">
+                        <a href="#" class="btn btn-brown">В корзину</a>
+                        <div class="card__link"><a href="#">Сравнить</a></div>
+                        <div class="card__link"><a href="#">В избранное</a></div>
+                        <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__hit">хит</div>
+                    <a href="img/tovar/11.jpg" class="card__img" data-fancybox>
+                        <img src="img/tovar/11.jpg" alt="">
+                    </a>
+                    <div class="card__code">SPP 8831 A</div>
+                    <div class="card__name">
+                        <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                    </div>
+                    <ul class="card__info">
+                        <li>
+                            <span>Коллекция</span>
+                            <a href="#">
+                                Art Stone
+                            </a>
+                        </li>
+                        <li>
+                            <span>Размер</span> 30х30см
+                        </li>
+                        <li>
+                            <span>Наличие</span> На складе
+                        </li>
+                    </ul>
+                    <div class="card__price">
+                        500 ₽ за м²
+                    </div>
+                    <div class="card__hidden">
+                        <a href="#" class="btn btn-brown">В корзину</a>
+                        <div class="card__link"><a href="#">Сравнить</a></div>
+                        <div class="card__link"><a href="#">В избранное</a></div>
+                        <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card__hit">хит</div>
+                    <a href="img/tovar/12.jpg" class="card__img" data-fancybox>
+                        <img src="img/tovar/12.jpg" alt="">
+                    </a>
+                    <div class="card__code">SPP 8831 A</div>
+                    <div class="card__name">
+                        <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                    </div>
+                    <ul class="card__info">
+                        <li>
+                            <span>Коллекция</span>
+                            <a href="#">
+                                Art Stone
+                            </a>
+                        </li>
+                        <li>
+                            <span>Размер</span> 30х30см
+                        </li>
+                        <li>
+                            <span>Наличие</span> На складе
+                        </li>
+                    </ul>
+                    <div class="card__price">
+                        500 ₽ за м²
+                    </div>
+
+                    <div class="card__hidden">
+                        <a href="#" class="btn btn-brown">В корзину</a>
+                        <div class="card__link"><a href="#">Сравнить</a></div>
+                        <div class="card__link"><a href="#">В избранное</a></div>
+                        <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="link-view-all">Смотреть все</a>
+        </div>
+    </section>
+
+    <section class="s-projects">
+        <div class="container">
+            <div class="s-title-mini">Проекты с использованием керамогранит Gofratto под камень 60х60</div>
+            <!-- @import #sorse/kit/projects.kit-->
+        </div>
+    </section>
+
+    <!-- @import #sorse/kit/similarcollections.kit-->
+
+    <!-- @import #sorse/kit/previously-viewed.kit-->
+
+
+
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+
+
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+
+
+<script src="//www.youtube.com/player_api"></script>
+
+<script>
+    var player = [];
+
+    function onYouTubeIframeAPIReady() {
+        player[0] = new YT.Player('video1', {
+            height: 'auto',
+            width: 'auto',
+            videoId: '6d8_PaiCXBI',
+        });
+        player[1] = new YT.Player('video2', {
+            height: 'auto',
+            width: 'auto',
+            videoId: '6d8_PaiCXBI',
+        });
+    }
+    $(document).on('click', '.video__placeholder', function () {
+        $(this).hide(0);
+        var playerVider = Number($(this).attr('data-id'));
+        player[playerVider].playVideo();
+    });
+</script>
+
+
+</body>
+
+</html>

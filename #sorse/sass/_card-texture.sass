@@ -1,0 +1,439 @@
+.catalog-card
+    .container
+        padding-bottom: 30px
+        border-bottom: 1px solid $bord
+    &__slider
+        margin-bottom: 30px
+        background: rgba(0,0,0,0.05)
+        img
+            display: block
+            object-fit: cover
+            object-position: center
+            width: 100%
+            height: 100%
+        .swiper-slide
+            height: auto
+        .swiper-pagination
+            padding: 0 25px
+            margin-bottom: 10px
+        .swiper-btn
+            margin-left: 30px
+            margin-right: 30px
+    &__links
+        display: flex
+        flex-wrap: wrap
+        font-size: 15px
+        a
+            display: flex
+            align-items: center
+            color: $dop
+            margin-right: 30px
+            &:last-child
+                margin-right: 0
+            &:hover
+                color: $d
+            img
+                margin-right: 10px
+            &.download
+                color: $brown
+                margin-left: auto
+                &:hover
+                    color: $brownh
+    &__info
+        display: flex
+        justify-content: space-between
+        .left
+            width: 40%
+            padding: 30px 30px 40px
+            background: rgba(0,0,0,0.05)
+            p
+                padding: 22px 0 28px
+            .btn
+                width: 360px
+                height: 60px
+                font-size: 15px
+        .right
+            width: 56%
+            padding-top: 10px
+            p
+                padding-bottom: 20px
+                &:last-child
+                    padding-bottom: 0
+        p
+            font-size: 18px
+            line-height: 1.55
+
+.s-cards-section
+    .s-title-mini
+        font-weight: normal
+    .container
+        padding-top: 60px
+        padding-bottom: 15px
+        border-bottom: 1px solid $bord
+    .btn-all-cards
+        margin-bottom: 45px
+.cards-items
+    display: flex
+    flex-wrap: wrap
+    width: calc( 100% + 30px )
+    margin-left: -30px
+    padding-bottom: 20px
+    padding-top: 3px
+    .card
+        margin-left: 30px
+        margin-bottom: 25px
+        width: calc(100% / 6 - 30px)
+
+
+.btn-all-cards
+    height: 60px
+    font-size: 15px
+
+.s-projects
+    .container
+        padding-top: 52px
+        padding-bottom: 20px
+    .s-title-mini
+        padding-right: 120px
+        font-weight: 400
+.projects-list
+    display: flex
+    flex-wrap: wrap
+    .projects-item
+        width: calc( 25% - 22.5px )
+        margin-right: 30px
+        margin-bottom: 35px
+        &:nth-child(4n+4)
+            margin-right: 0
+.projects-item
+    &__img
+        display: block
+        height: 12.2vw
+        overflow: hidden
+        margin-bottom: 15px
+        img
+            width: 100%
+            height: 100%
+            object-fit: cover
+            object-position: center
+            display: block
+    &__type
+        text-decoration: underline
+        font-size: 13px
+        &:hover
+            text-decoration: none
+            color: $bord
+    &__name
+        padding: 10px 0
+        font-size: 18px
+        font-weight: 600
+    &__info
+        font-size: 13px
+        a
+            color: $brown
+            &:hover
+                color: $brownh
+        li
+            margin-bottom: 8px
+            &:last-child
+                margin-bottom: 0
+        span
+            opacity: 0.5
+            display: inline-block
+            width: 125px
+            
+.btn-order-design
+    width: 350px
+    height: 60px
+    font-size: 15px
+
+.s-other-textures
+    .container
+        padding-top: 50px
+        padding-bottom: 50px
+.other-textures
+    display: flex
+    flex-wrap: wrap
+    &__item
+        width: calc( 25% - 22.5px )
+        margin-right: 30px
+        margin-bottom: 25px
+        display: block
+        font-size: 18px
+        font-weight: 600
+        &:nth-child(4n+4)
+            margin-right: 0
+    &__img
+        display: block
+        height: 12.2vw
+        overflow: hidden
+        margin-bottom: 14px
+        img
+            width: 100%
+            height: 100%
+            object-fit: cover
+            object-position: center
+            display: block
+
+.s-previously-viewed
+    padding: 50px 0
+    background: $grey
+
+.s-previously-viewed,
+.s-other-textures
+    .s-title-mini
+        font-weight: normal
+        padding-bottom: 4px
+
+.previously-viewed
+    position: relative
+    &__item
+        display: flex
+        color: #000000
+        align-items: center
+        &:hover
+            color: $brown
+    &__img
+        width: 98px
+        height: 98px
+    &__text
+        font-size: 15px
+        line-height: 1.27
+        width: calc( 100% - 98px )
+        padding-left: 30px
+
+.about-collection
+    background: none
+    &.about-main
+        padding-bottom: 0
+    .container
+        padding-bottom: 90px
+        border-bottom: 1px solid $e6
+    .about-main__text 
+        p
+            padding-bottom: 0
+
+.cards-block
+    position: relative
+
+.projects-portfolio
+    padding-top: 20px
+
+.portfolio
+    .container
+        padding-bottom: 25px
+        border-bottom: 1px solid $e6
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1199px )
+    .s-cards-section
+        .link-view-all
+            margin-top: 8px
+
+@media screen and (max-width: 1550px )
+    .previously-viewed
+        &__text
+            padding-left: 20px
+    .cards-items 
+        .card
+            width: calc( 20% - 30px )
+            &:nth-child(1n + 11)
+                display: none
+        &.one-row
+            .card
+                &:last-child
+                    display: none
+    .catalog-card__info p
+        font-size: 16px
+    .catalog-card
+        &__links
+            a
+                &.download
+                    margin-left: 0
+                    margin-top: 15px
+    .about-collection 
+        .container
+            padding-bottom: 30px
+
+@media screen and (max-width: 1199px )
+    .cards-items 
+        padding-bottom: 5px
+        .card
+            width: calc( 25% - 30px )
+            &:nth-child(1n + 9)
+                display: none
+        &.one-row
+            .card
+                &:nth-child(1n + 5)
+                    display: none
+    .catalog-card
+        &__info
+            display: block
+            .left
+                width: 100%
+            .right
+                width: 100%
+                padding-top: 30px
+    .projects-list 
+        justify-content: space-between
+        .projects-item
+            margin-right: 0
+            width: calc( 50% - 15px )
+
+    .catalog-card
+        &__links
+            a
+                &.download
+                    margin-left: auto
+                    margin-top: 0
+
+
+@media screen and (max-width: 950px )
+    .cards-items 
+        .card
+            width: calc( (100% / 3) - 30px )
+            &:nth-child(1n + 7)
+                display: none
+        &.one-row
+            .card
+                &:nth-child(4)
+                    display: none
+
+    .projects-item
+        &__name
+            font-size: 16px
+            padding: 8px 0
+        &__type
+            font-size: 13px
+        &__info
+            font-size: 12px
+            li
+                margin-bottom: 6px
+                
+    .other-textures
+        justify-content: space-between
+        &__item
+            width: calc( 50% - 15px ) 
+            margin-right: 0
+    .s-other-textures .container
+        padding-bottom: 30px
+    .s-projects
+        .container
+            padding-top: 50px
+    .about-collection 
+        .container
+            padding-bottom: 60px
+        .about-main__text
+            padding-top: 0
+            padding-bottom: 0
+
+@media screen and (max-width: 750px )
+    .cards-items 
+        width: 100%
+        margin-left: 0
+        justify-content: space-between
+        .card
+            width: calc( 50% - 15px )
+            margin-left: 0
+            &:nth-child(1n + 5)
+                display: none
+        &.one-row
+            .card
+                &:nth-child(4)
+                    display: block
+    .catalog-card__info p
+        font-size: 14px
+
+@media screen and (max-width: 550px )
+    .s-projects .s-title-mini
+        padding-right: 0
+    .cards-items 
+        .card
+            width: calc( 50% - 10px )
+    .catalog-card__info .left .btn
+        height: 55px
+        font-size: 13px
+    .s-cards-section 
+        .container
+            padding-top: 30px
+            padding-bottom: 10px
+        .btn-all-cards
+            margin-bottom: 20px
+    .btn-order-design
+        width: 100%
+        height: 55px
+        font-size: 13px
+    .s-other-textures .container,
+    .s-projects .container
+        padding-top: 30px
+    .s-previously-viewed
+        padding: 30px 0
+    .s-projects 
+        .btn-order-design
+            margin-bottom: 25px
+    .other-textures__item
+        width: calc( 50% - 10px )
+    .projects-list 
+        display: block
+        .projects-item
+            width: 100%
+    .projects-item
+        &__img
+            margin-bottom: 10px
+
+    .catalog-card
+        &__links
+            a
+                &.download
+                    margin-left: 0
+                    margin-top: 15px
+
+@media screen and (max-width: 450px )
+    .other-textures
+        display: block
+        &__item
+            width: 100%
+    .catalog-card
+        &__slider 
+            width: 100vw
+            margin-left: -5vw
+            margin-bottom: 0
+            .swiper-btn
+                display: none
+            .swiper-pagination
+                position: static
+                text-align: left
+                margin: 18px 0 0
+                .swiper-pagination-bullet
+                    background: #d1d1d1
+        &__info
+            .left
+                width: 100vw
+                margin-left: -5vw
+                padding: 20px 5%
+                p
+                    padding: 15px 0
+            .right 
+                p
+                    padding-bottom: 12px
+                    font-size: 15px
+    .other-textures__item
+        margin-bottom: 20px
+    .projects-item__name
+        font-size: 15px
+    .portfolio
+        .container
+            padding-bottom: 10px
+    .projects-portfolio
+        padding-top: 10px
+        padding-bottom: 10px
