@@ -1,0 +1,214 @@
+.contacts
+    .container
+        padding-bottom: 20px
+        border-bottom: 1px solid $bord
+    &__top
+        max-width: 870px
+        font-size: 15px
+        line-height: 1.67
+        margin-bottom: 50px
+        .btn
+            margin-top: 21px
+            height: 60px
+            width: 353px
+    .s-title-mini
+        font-weight: 400
+        margin-bottom: 15px
+    &__coll-line
+        padding-bottom: 22px
+        font-size: 15px
+
+    &-shops
+        display: flex
+        flex-wrap: wrap
+        font-size: 15px
+        &__item
+            width: calc( 100% /  3 - 40px )
+            margin-right: 60px
+            margin-bottom: 35px
+            &:nth-child(3n+3)
+                margin-right: 0
+        &__img
+            width: 225px
+            height: 150px
+            overflow: hidden
+            margin-bottom: 11px
+            img
+                display: block
+                width: 100%
+                height: 100%
+                object-fit: cover
+                object-position: center
+
+
+.contacts-adress
+    font-size: 15px
+    line-height: 1.67
+    padding-top: 50px
+    .tel
+        cursor: default
+    a:not(.tel)
+        color: $brown
+        &:hover
+            color: $brownh
+    .container
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+        padding-bottom: 20px
+    .s-title-mini
+        font-weight: 400
+        margin-bottom: 15px
+        line-height: 1.25
+    &__item
+        width: calc( 50% - 25px )
+        margin-bottom: 25px
+        display: flex
+        flex-direction: column
+        & > p
+            max-width: 425px
+    &__bot
+        padding-top: 15px
+        display: flex
+        align-items: flex-end
+        margin-top: auto
+    .el
+        width: 36%
+        padding-right: 30px
+        padding-bottom: 15px
+        &:nth-child(3)
+            width: 28%
+            color: $dop
+
+.contacts-map
+    height: 450px
+    width: 100%
+    display: block
+    overflow: hidden
+    .ymaps-layers-pane
+        filter: grayscale(100%)
+    #map
+        width: 100%
+        height: 100%
+        padding: 0
+        margin: 0
+    .ymaps-b-balloon__bl,
+    .ymaps-b-balloon__br,
+    .ymaps-b-balloon__tl,
+    .ymaps-b-balloon-shadow
+        display: none!important
+        opacity: 0
+    .ymaps-b-balloon__content
+        border: none
+    .ymaps-balloon-overlay
+        transform: translateY(50%)
+    .ymaps-b-balloon__close
+        background: url('../img/close-map.svg') no-repeat bottom left
+    .map-card
+        background: #ffffff
+        width: 225px
+        p
+            padding: 10px
+            font-size: 12px
+    .ymaps-b-balloon__content-holster
+        padding: 0!important
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1400px )
+    .contacts-shops__item
+        width: calc( 100% / 3  - 20px )
+        margin-right: 30px
+
+
+@media screen and (max-width: 1299px )
+    .contacts-adress
+        .el
+            padding-bottom: 10px
+            width: 48%
+            padding-right: 0
+            &:nth-child(3)
+                width: 100%
+                position: absolute
+                top: 100%
+                left: 0
+        &__bot
+            flex-wrap: wrap
+            position: relative
+            margin-bottom: 10px
+        
+@media screen and (max-width: 950px )
+    .contacts-adress
+        .container
+            display: block
+        &__item
+            width: 100%
+        &__bot
+            margin-bottom: 0
+        .el
+            &:nth-child(3)
+                position: static
+
+
+    .contacts-shops
+        justify-content: space-between
+        &__item
+            width: calc( 50% - 15px )
+            margin-right: 0
+
+
+
+@media screen and (max-width: 750px )
+    .contacts-adress
+        padding-top: 30px
+    .contacts 
+        .container
+            padding-bottom: 5px
+@media screen and (max-width: 550px )
+    .contacts-shops
+        display: block
+        &__item
+            width: 100%
+            margin-bottom: 30px
+    .contacts
+        &__top
+            margin-bottom: 35px
+    .contacts-map
+        height: 375px
+@media screen and (max-width: 450px )
+    .contacts-adress
+        font-size: 14px
+
+@media screen and (max-width: 365px )
+    .contacts-adress
+        &__item
+            margin-bottom: 20px
+        &__bot
+            display: block
+        .el
+            width: 100%

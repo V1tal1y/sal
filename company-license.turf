@@ -1,0 +1,124 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Лицензии и сертификаты</span>
+        </li>
+    </ul>
+</div>
+
+<main>
+    <section class="s-company">
+        <div class="container bb">
+            <div class="company-sidebar">
+                <nav class="company-nav">
+                    <ul>
+                        <li class="company-nav__item"><a href="#">О компании</a></li>
+                        <li class="company-nav__item"><a href="#">Отзывы</a></li>
+                        <li class="company-nav__item"><a href="#">Философия бренда</a></li>
+                        <li class="company-nav__item"><a href="#">Производство</a></li>
+                        <li class="company-nav__item active"><a href="#">Лицензии и сертификаты</a></li>
+                        <li class="company-nav__item"><a href="#">Материалы для скачивания</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="company-content">
+                <h1 class="s-title">Лицензии и сертификаты</h1>
+                <div class="company-licenses">
+                    <div class="license-card">
+                        <a href="img/certificate/1.jpg" class="license-card__img" data-fancybox><img src="img/certificate/1.jpg" alt=""></a>
+                        <div class="license-card__download">
+                            <a href="#">Скачать PDF</a>
+                            <div class="license-card__size">0,7 mb</div>
+                        </div>
+                        Сертификат соответствия ГОСТ. Продукция: плиты керамические Sal Sapiente
+                    </div>
+                    <div class="license-card">
+                        <a href="img/certificate/2.jpg" class="license-card__img" data-fancybox><img src="img/certificate/2.jpg" alt=""></a>
+                        <div class="license-card__download">
+                            <a href="#">Скачать PDF</a>
+                            <div class="license-card__size">0,7 mb</div>
+                        </div>
+                        Сертификат соответствия ГОСТ. Продукция: плиты керамогранитные Sal Sapiente
+                    </div>
+                    <div class="license-card">
+                        <a href="img/certificate/3.jpg" class="license-card__img" data-fancybox><img src="img/certificate/3.jpg" alt=""></a>
+                        <div class="license-card__download">
+                            <a href="#">Скачать PDF</a>
+                            <div class="license-card__size">0,7 mb</div>
+                        </div>
+                        Экспертное заключение о соответствии продукции Sal Sapiente санитарно- эпидемиологической и гигиеническим требованиям
+                    </div>
+                    <div class="license-card">
+                        <a href="img/certificate/4.jpg" class="license-card__img" data-fancybox><img src="img/certificate/4.jpg" alt=""></a>
+                        <div class="license-card__download">
+                            <a href="#">Скачать PDF</a>
+                            <div class="license-card__size">0,7 mb</div>
+                        </div>
+                        Сертификат соответствия ГОСТ. Продукция: плиты керамогранитные Sal Sapiente
+                    </div>
+                    <div class="license-card">
+                        <a href="img/certificate/1.jpg" class="license-card__img" data-fancybox><img src="img/certificate/1.jpg" alt=""></a>
+                        <div class="license-card__download">
+                            <a href="#">Скачать PDF</a>
+                            <div class="license-card__size">0,7 mb</div>
+                        </div>
+                        Сертификат соответствия ГОСТ. Продукция: плиты керамические Sal Sapiente
+                    </div>
+                    <div class="license-card">
+                        <a href="img/certificate/2.jpg" class="license-card__img" data-fancybox><img src="img/certificate/2.jpg" alt=""></a>
+                        <div class="license-card__download">
+                            <a href="#">Скачать PDF</a>
+                            <div class="license-card__size">0,7 mb</div>
+                        </div>
+                        Сертификат соответствия ГОСТ. Продукция: плиты керамогранитные Sal Sapiente
+                    </div>
+                    <div class="license-card">
+                        <a href="img/certificate/3.jpg" class="license-card__img" data-fancybox><img src="img/certificate/3.jpg" alt=""></a>
+                        <div class="license-card__download">
+                            <a href="#">Скачать PDF</a>
+                            <div class="license-card__size">0,7 mb</div>
+                        </div>
+                        Экспертное заключение о соответствии продукции Sal Sapiente санитарно- эпидемиологической и гигиеническим требованиям
+                    </div>
+                    <div class="license-card">
+                        <a href="img/certificate/4.jpg" class="license-card__img" data-fancybox><img src="img/certificate/4.jpg" alt=""></a>
+                        <div class="license-card__download">
+                            <a href="#">Скачать PDF</a>
+                            <div class="license-card__size">0,7 mb</div>
+                        </div>
+                        Сертификат соответствия ГОСТ. Продукция: плиты керамогранитные Sal Sapiente
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+
+
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+
+
+
+
+</body>
+
+</html>

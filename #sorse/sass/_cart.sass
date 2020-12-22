@@ -1,0 +1,471 @@
+.cart-table
+    padding: 10px 0 20px
+    table
+        width: 100%
+        border-collapse: collapse
+    td
+        padding: 15px 30px 15px 0   
+        &:first-child
+            width: 128px
+        &:last-child
+            width: 30px
+            padding-right: 0
+            text-align: right
+        &:nth-child(4)
+            text-align: right
+            padding-right: 0
+            font-size: 18px
+            font-weight: 500
+            white-space: nowrap
+    &__del
+        display: inline-block
+        width: 23px
+        height: 23px
+        margin-bottom: 20px
+        background: url('../img/del-bask.png') no-repeat center
+        svg
+            stroke: #000000
+        &:hover
+            opacity: 0.7
+            svg
+                stroke: $brown
+            
+    &__grey
+        font-size: 12px
+        color: $bop
+        padding-top: 11px
+        font-weight: 400
+    &__name
+        font-size: 18px
+        font-weight: 500
+        &:hover
+            color: $brown
+    &__img
+        width: 98px
+        height: 98px
+        display: block
+        img
+            width: 100%
+            height: 100%
+            object-fit: cover
+            object-position: center
+
+    &__quantity
+        display: flex
+        align-items: flex-start
+        input
+            color: $dop
+
+        .counter
+            margin-right: 10px
+            border-color: #E8E8E9
+        .radio-square 
+            .check
+                border-color: #E8E8E9
+                color: $dop
+
+
+.cart-order
+    padding: 50px 0 0
+    .container
+        display: flex
+        justify-content: space-between
+        padding-bottom: 55px
+    &__right
+        width: 480px
+        position: relative
+    &__left
+        width: calc( 100% - 635px )
+        font-size: 15px
+        ::placeholder
+            color: $dop
+        p
+            padding-bottom: 15px
+    &__title
+        font-size: 28px
+        padding-bottom: 15px
+    &__delivery
+        position: relative
+        padding-bottom: 45px
+        .cart-order__title
+            margin-bottom: 10px
+        &-adress
+            width: 100%
+            display: block
+            margin-bottom: 24px
+        &-distance
+            display: flex
+            align-items: center
+            margin-bottom: 35px
+            label
+                display: block
+                margin-right: 20px
+        &-table
+            margin-bottom: 15px
+            width: 100%
+            td
+                padding-bottom: 15px
+                &:first-child
+                    padding-right: 15px
+                &:last-child
+                    font-weight: 600
+                    padding-bottom: 15px
+                    width: 220px
+        &-price
+            position: absolute
+            top: 8px
+            right: 0
+            width: 220px
+            a
+                font-size: 15px
+                text-decoration: underline
+                color: $brown
+                &:hover
+                    text-decoration: none
+                    color: $brownh
+    &__pay
+        padding-bottom: 25px
+        &-list
+            li
+                padding-bottom: 15px
+    &__data
+        textarea
+            resize: none
+        &-inputs
+            display: flex
+            justify-content: space-between
+            flex-wrap: wrap
+            .input
+                width: calc( 100% / 3 - 20px )
+                margin-bottom: 15px
+                position: relative
+                &:last-child
+                    width: 100%
+                    margin-bottom: 0
+
+    &__fix
+        padding: 20px 30px 30px
+        background: rgba(0,0,0,0.05)
+        position: sticky
+        width: 100%
+        top: 0
+        left: 0
+        font-size: 15px
+        .btn
+            width: 225px
+            height: 60px
+            font-size: 15px
+        table
+            border-collapse: collapse
+            width: 100%
+            margin-bottom: 10px
+            td
+                padding-bottom: 10px
+                &:last-child
+                    text-align: right
+            tbody
+                tr
+                    &:last-child
+                        td
+                            padding-bottom: 25px
+        tfoot
+            td
+                padding-top: 22px
+                font-weight: bold
+                border-top: 1px solid $dop15    
+
+
+
+.label-radio
+    padding-left: 35px
+    position: relative
+    min-height: 25px
+    display: flex
+    align-items: center
+    width: fit-content
+    input
+        display: none
+        &:checked + .label-radio__check
+            border-color: $d
+            &::after
+                content: ''
+                display: block
+                width: 13px
+                height: 13px
+                border-radius: 100%
+                background: $d
+    &__check
+        width: 25px
+        height: 25px
+        border-radius: 100%
+        border: 1px solid $dop15
+        position: absolute
+        top: 0
+        left: 0
+        display: flex
+        align-items: center
+        justify-content: center
+
+.cart-input
+    display: block
+    width: 100%
+    border: none
+    height: 35px
+    border-bottom: 1px solid $dop15
+    font-size: 15px
+    color: $d
+    &:focus
+        border-bottom: 1px solid $d
+        
+.label-checkbox
+    position: relative
+    padding-left: 30px
+    min-height: 18px
+    display: inline-block
+    input
+        display: none
+        &:checked + .label-checkbox__check
+            border-color: $d
+            &::after
+                content: ''
+                display: block
+                width: 10px
+                height: 10px
+                background: $d
+    &__check
+        width: 18px
+        height: 18px
+        display: flex
+        align-items: center
+        justify-content: center
+        border: 1px solid $dop2
+        position: absolute
+        top: 0
+        left: 0
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1430px )
+    .cart-order
+        &__left
+            width: calc( 100% - 500px )
+
+
+@media screen and (max-width: 1199px )
+    .cart-table
+        &__name
+            font-size: 16px
+        &__quantity
+            display: block
+            &-item
+                &:first-child
+                    margin-bottom: 15px
+        &__grey
+            padding-top: 7px
+        td
+            padding-right: 15px
+            &:first-child
+                width: 113px
+    .cart-order 
+        .container
+            display: block
+        &__left
+            width: 100%
+            margin-bottom: 30px
+        &__right
+            width: 100%
+
+
+
+
+
+@media screen and (max-width: 950px )
+    
+        
+@media screen and (max-width: 850px )
+    .cart-table 
+        &__del
+            margin-bottom: 0
+        td
+            padding-top: 0
+            &:nth-child(2)
+                width: calc( 100% - 113px )
+                align-self: center
+            &:last-child
+                position: absolute
+                top: 0
+                right: 0
+                padding-bottom: 0
+        tr
+            display: flex
+            align-items: flex-start
+            justify-content: space-between
+            flex-wrap: wrap
+            position: relative
+            padding-bottom: 15px
+        td,
+        tbody,
+        table
+            display: block
+        &__quantity
+            display: flex
+            &-item:first-child
+                margin-bottom: 0
+
+@media screen and (max-width: 750px )
+    .cart-order
+        &__delivery
+            .cart-order__title
+                margin-bottom: 0
+            &-price
+                position: static
+                margin-bottom: 15px
+            &-table 
+                td
+                    &:last-child
+                        width: auto
+
+@media screen and (max-width: 550px )
+    .cart-table
+        padding-bottom: 5px
+        .counter
+            width: 150px
+
+    .cart-order
+        padding-top: 30px
+        .container
+            padding-bottom: 30px
+        &__data-inputs 
+            display: block
+        .input
+            width: 100%
+        &__fix
+            font-size: 14px
+        &__left
+            font-size: 12px
+            p
+                padding-bottom: 10px
+        &__title
+            font-size: 22px
+        &__delivery
+            &-price 
+                a
+                    font-size: 13px
+            &-table 
+                td
+                    padding-bottom: 10px
+    .label-radio input:checked + .label-radio__check::after
+        width: 10px
+        height: 10px
+    .label-radio
+        min-height: 18px
+        padding-left: 28px
+        &__check
+            width: 18px
+            height: 18px
+                
+    .cart-input
+        font-size: 13px
+        height: 28px
+
+
+@media screen and (max-width: 450px )
+    .cart-table
+        .counter
+            width: 90px
+            &__btn
+                width: 30px
+                svg
+                    transform: scale(.8)
+            input
+                width: calc( 100% - 60px )
+        .radio-square
+            font-size: 13px
+            margin-right: 5px
+        td
+            &:nth-child(4)
+                font-size: 16px
+        &__grey
+            font-size: 11px
+
+    .cart-order
+        &__fix
+            width: 100vw
+            position: static
+            margin-left: -5vw
+            padding: 20px 5vw 25px
+            font-size: 13px
+            table 
+                td
+                    padding-bottom: 7px
+                tbody
+                    tr
+                        &:last-child
+                            td
+                                padding-bottom: 15px
+                tfoot
+                    td
+                        padding-top: 12px
+            .btn
+                width: 180px
+                height: 47px
+                font-size: 13px
+
+
+
+@media screen and (max-width: 370px )
+    .cart-table 
+        &__quantity
+            width: 100%
+            justify-content: space-between
+        .counter
+            width: 120px
+        td
+            &:nth-child(3)
+                width: 100%
+                padding-right: 0
+            &:nth-child(4)
+                width: 100%
+                text-align: center
+                padding-bottom: 0
+                display: flex
+                align-items: flex-end
+                justify-content: center
+                text-align: center
+                .cart-table__grey
+                    padding-top: 0
+                    margin-left: 10px
+        &__name
+            font-size: 14px
+            line-height: 1.15
+
+
+
+
+
+
+
+

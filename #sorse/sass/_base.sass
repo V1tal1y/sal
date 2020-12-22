@@ -8,6 +8,7 @@
     outline: none!important
     padding-top: 1px
     margin-top: -13px
+    padding: 0
     &:hover
         background: rgba(0,0,0,0.5)
     &::after
@@ -73,12 +74,17 @@
     margin-bottom: 20px
     font-size: 48px
     font-weight: 600
+    line-height: 1.2
 .s-title-mini
     margin-bottom: 20px
     font-size: 28px
     font-weight: 600
+    line-height: 1.25
+    &.fw-normal
+        font-weight: 400
 .s-title-normal
     margin-bottom: 20px
+    line-height: 1.25
     font-size: 28px
 
 .tabs
@@ -435,11 +441,13 @@
         justify-content: center
         border: 1px solid $bro1
         transition: all 0.15s ease-in-out
+        cursor: pointer
         svg
             stroke: $d
             transition: all 0.15s ease-in-out
         &:hover
             background: $brown
+            color: #fff
             svg
                 stroke: #fff
     .minus
@@ -765,6 +773,8 @@
             padding: 15px 0
         .btn
             font-size: 13px
+    .s-title-mini
+        font-size: 22px
 @media screen and (max-width: 360px )
     .card
         &__info
@@ -773,5 +783,3 @@
         font-size: 14px
     .s-title
         font-size: 32px
-    .s-title-mini
-        font-size: 22px

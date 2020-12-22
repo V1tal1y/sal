@@ -1,0 +1,228 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Контакты</span>
+        </li>
+    </ul>
+</div>
+
+<main>
+    <section class="contacts">
+        <div class="container">
+            <h1 class="s-title">Шоурум и магазины в Москве</h1>
+            <div class="contacts__top">
+                <div class="sub-title">Вы можете не просто придти в магазин, а оставить заявку, чтобы наши специалисты
+                    сделали для вас дизайн-проект и на встрече работали по VIP-стандарту именно с вами. Это не стоит
+                    дополнительных денег.</div>
+                <a href="#" class="btn btn-brown">Оставить заявку</a>
+            </div>
+
+            <div class="s-title-mini">Магазины</div>
+            <div class="contacts__coll-line">Единая линия <a href="+74957983282">+7 495 798 32 82</a></div>
+            <div class="contacts-shops">
+                <div class="contacts-shops__item">
+                    <div class="contacts-shops__img">
+                        <img src="img/tovar/l1.jpg" alt="">
+                    </div>
+                    <p>ЭКСПОСТРОЙ​, Нахимовский проспект 24, пав 3 106, ​380 стенд, павильон 3</p>
+                </div>
+                <div class="contacts-shops__item">
+                    <div class="contacts-shops__img">
+                        <img src="img/tovar/l2.jpg" alt="">
+                    </div>
+                    <p>ТК Владимирский Тракт, ​Автомагистраль Москва-Нижний, Новгород шоссе вл19 к П1​, офис 6, павильон
+                        П-1</p>
+                </div>
+                <div class="contacts-shops__item">
+                    <div class="contacts-shops__img">
+                        <img src="img/tovar/l3.jpg" alt="">
+                    </div>
+                    <p>​МТК Гранд, ​Бутаково 4​, сектор 1</p>
+                </div>
+                <div class="contacts-shops__item">
+                    <div class="contacts-shops__img">
+                        <img src="img/tovar/l4.jpg" alt="">
+                    </div>
+                    <p>ТК Люблинское поле, ​Тихорецкий бульвар 1 ст2 к, павильон Т​В-107</p>
+                </div>
+                <div class="contacts-shops__item">
+                    <div class="contacts-shops__img">
+                        <img src="img/tovar/l5.jpg" alt="">
+                    </div>
+                    <p>Каширское шоссе 19, павильон к1​3-A3, 3 этаж</p>
+                </div>
+                <div class="contacts-shops__item">
+                    <div class="contacts-shops__img">
+                        <img src="img/tovar/l1.jpg" alt="">
+                    </div>
+                    <p>ВЯК ЭлитСтрой материалы, ​Торговая ст2, павильон ​C-3</p>
+                </div>
+                <div class="contacts-shops__item">
+                    <div class="contacts-shops__img">
+                        <img src="img/tovar/l2.jpg" alt="">
+                    </div>
+                    <p>Твой Дом​, Международная 4</p>
+                </div>
+                <div class="contacts-shops__item">
+                    <div class="contacts-shops__img">
+                        <img src="img/tovar/l3.jpg" alt="">
+                    </div>
+                    <p>БП Румянцево, ​Киевское шоссе 22 км, вл4 блок Г, павильон 262Г, центр Стройка Парк</p>
+                </div>
+                <div class="contacts-shops__item">
+                    <div class="contacts-shops__img">
+                        <img src="img/tovar/l4.jpg" alt="">
+                    </div>
+                    <p>ТК Конструктор, ​МКАД 25 км, вл1</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contacts-adress">
+        <div class="container">
+            <div class="contacts-adress__item">
+                <div class="s-title-mini">Главный офис и шоурум</div>
+                <p>
+                    Москва, Научный проезд 17, бизнес-центр «9 акров», метро Калужская <br>
+                    <a href="#">Показать на карте</a>
+                </p>
+                <div class="contacts-adress__bot">
+                    <div class="el">
+                        <a href="tel:+74958775801" class="tel">+7 495 877 58 01</a> <br>
+                        <a href="mailto:sale@salsapiente.ru">sale@salsapiente.ru</a>
+                    </div>
+                    <div class="el">
+                        Понедельник-пятница <br> с 09:00 до 18:00
+                    </div>
+                    <div class="el">Есть парковка</div>
+                </div>
+            </div>
+            <div class="contacts-adress__item">
+                <div class="s-title-mini">Склад для самовывоза</div>
+                <p>
+                    Химки, Вашутинское шоссе, 23 <br>
+                    <a href="#">Показать на карте</a>
+                </p>
+                <div class="contacts-adress__bot">
+                    <div class="el">
+                        <a href="tel:+74952019761" class="tel">+7 495 201 97 61</a> <br>
+                        <a href="mailto:sale@salsapiente.ru">sale@salsapiente.ru</a>
+                    </div>
+                    <div class="el">
+                        Понедельник-пятница <br> с 08:00 до 17:30
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts-map">
+        <div id="map"></div>
+    </section>
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+
+<script src="//api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&lang=ru-RU"
+    type="text/javascript"></script>
+<!-- 
+    
+            iconImageHref: 'http://verstka.staffboost.ru/sal/img/map.svg',
+            iconImageSize: [54, 54],
+            iconImageOffset: [-27, -27]
+
+            "<div class='map-card'><img src='http://verstka.staffboost.ru/sal/img/tovar/l1.jpg' alt=''><p>ТК Владимирский Тракт, ​Автомагистраль Москва-Нижний, Новгород шоссе вл19 к П1​, офис 6, павильон П-1</p></div>"
+ -->
+
+<script>
+    var txtMap = "<div class='map-card'><img src='http://verstka.staffboost.ru/sal/img/tovar/l1.jpg' alt=''><p>ТК Владимирский Тракт, ​Автомагистраль Москва-Нижний, Новгород шоссе вл19 к П1​, офис 6, павильон П-1</p></div>";
+
+    ymaps.ready(init);
+
+    function init() {
+        var myMap = new ymaps.Map("map", {
+            center: [55.76, 37.64],
+            zoom: 10
+        }),
+            // getShape: function () {
+            //     if(!this._isElement(this._$element)) {
+            //         return MyBalloonLayout.superclass.getShape.call(this);
+            //     }
+
+            //     var position = this._$element.position();
+
+            //     return new ymaps.shape.Rectangle(new ymaps.geometry.pixel.Rectangle([
+            //         [position.left, position.top], [
+            //             position.left + this._$element[0].offsetWidth,
+            //             position.top + this._$element[0].offsetHeight + this._$element.find('.arrow')[0].offsetHeight
+            //         ]
+            //     ]));
+            // },
+
+    myPlacemark1 = new ymaps.Placemark([55.8, 37.6], {
+        // Свойства.
+        // Содержимое хинта.
+        hintContent: 'ТК Владимирский Тракт',
+        balloonShadow: false,
+        balloonPanelMaxMapArea: 0,
+        hideIconOnBalloonOpen: false,
+        balloonContent: txtMap,
+    }, {
+        iconImageHref: 'http://verstka.staffboost.ru/sal/img/map.svg',
+        iconImageSize: [40, 40],
+        iconImageOffset: [-20, -20],
+        hideIconOnBalloonOpen: false,
+        balloonOffset: [140, 100]
+    }),
+
+
+        myPlacemark2 = new ymaps.Placemark([55.84, 37.2], {
+            // Свойства.
+            // Содержимое хинта.
+            hintContent: 'ТК Владимирский Тракт',
+            balloonShadow: false,
+            balloonPanelMaxMapArea: 0,
+            hideIconOnBalloonOpen: false,
+            balloonContent: txtMap,
+        }, {
+            iconImageHref: 'http://verstka.staffboost.ru/sal/img/map-p-mini.svg',
+            iconImageSize: [20, 20],
+            iconImageOffset: [-10, -10],
+            hideIconOnBalloonOpen: false,
+            hideIconOnBalloonOpen: false,
+            balloonOffset: [130, 100]
+        });
+
+    // Добавляем все метки на карту.
+    myMap.geoObjects
+        .add(myPlacemark1)
+        .add(myPlacemark2);
+    }
+
+
+</script>
+
+
+
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+
+
+
+
+
+</body>
+
+</html>

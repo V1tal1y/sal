@@ -1,0 +1,121 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Доставка</span>
+        </li>
+    </ul>
+</div>
+<main>
+    <section class="info-page">
+        <div class="container bb">
+            <div class="info-page__sidebar">
+                <nav class="company-nav">
+                    <ul>
+                        <li class="company-nav__item"><a href="info-page-pay.html">Оплата</a></li>
+                        <li class="company-nav__item active"><a href="info-page-delivery.html">Доставка</a></li>
+                        <li class="company-nav__item"><a href="info-page-warranty.html">Гарантии</a></li>
+                        <li class="company-nav__item"><a href="info-page-exchange.html">Возврат и обмен</a></li>
+                        <li class="company-nav__item"><a href="info-page-credit.html">Покупка в кредит</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="info-page__content info-delivery">
+                <div class="s-title">Доставка</div>
+                <p><b>Самовывоз</b></p>
+                <p>Адрес склада и пункта выдачи: Московская область, город Химки, Вашутинское шоссе, дом 23. Отгрузка производится после оплаты в кассе магазина (принимаем платежные карты), банк он-лайн или наличными на складе. Время работы: понедельник-пятница с 10:00 до 17:00. При себе иметь паспорт!</p>
+                <br>
+                <p><b>Транспортная компания</b></p>
+                <p>Стоимость доставки от 2000 рублей, в зависимости от точного адреса заказчика и веса груза. Полную стоимость уточняйте у продающего менеджера. Заказ выполняется в течение следующего дня, если его оформили до 13:00. Точная дата доставки товара согласовывается в момент оформления заказа. Доставка осуществляется до адреса заказчика, и не включает в себя разгрузку и подъем на этаж.</p>
+                <br>
+                <p><b>Зона 1 — в пределах ТТК</b></p>
+                <table>
+                    <tr>
+                        <td>кг</td>
+                        <td>700</td>
+                        <td>1500</td>
+                        <td>2400</td>
+                    </tr>
+                    <tr>
+                        <td>м²</td>
+                        <td>30</td>
+                        <td>70</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>руб.</td>
+                        <td>2500</td>
+                        <td>2950</td>
+                        <td>3550</td>
+                    </tr>
+                </table>
+                <br>
+                <p><b>Зона 2 — в пределах ТТК</b></p>
+                <table>
+                    <tr>
+                        <td>кг</td>
+                        <td>700</td>
+                        <td>1500</td>
+                        <td>2400</td>
+                    </tr>
+                    <tr>
+                        <td>м²</td>
+                        <td>30</td>
+                        <td>70</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>руб.</td>
+                        <td>2500</td>
+                        <td>2950</td>
+                        <td>3550</td>
+                    </tr>
+                </table>
+                <br>
+                <p><b>Зона 3 — в пределах ТТК</b></p>
+                <table>
+                    <tr>
+                        <td>кг</td>
+                        <td>700</td>
+                        <td>1500</td>
+                        <td>2400</td>
+                    </tr>
+                    <tr>
+                        <td>м²</td>
+                        <td>30</td>
+                        <td>70</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>руб.</td>
+                        <td>2500</td>
+                        <td>2950</td>
+                        <td>3550</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+</body>
+
+</html>

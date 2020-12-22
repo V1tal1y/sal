@@ -1,0 +1,283 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Приглашаем к сотрудничеству</span>
+        </li>
+    </ul>
+</div>
+<main>
+    <section class="partners-top">
+        <div class="container bb">
+            <div class="s-title">Приглашаем к сотрудничеству</div>
+            <div class="partners-top__nav">
+                <a href="#">Дизайнеров, архитекторов и декораторов</a>
+                <a href="#" class="active">Строителей и прорабов</a>
+                <a href="#">Региональных представителей</a>
+            </div>
+            <p class="partners-top__order-form">Заполните форму, отправьте запрос и получите персональные условия сотрудничества!</p>
+            <div class="partners-top__bottom">
+                <a href="#" class="btn btn-brown">Отправить заявку</a>
+                <figure>
+                    <img src="img/ecaterina.png" alt="">
+                    <figcaption>
+                        <b>Екатерина Барыкина</b>
+                        руководитель отдела по работе с партнерами <br>
+                        <a href="tel:+74959684757">+7 495 968 47 57</a> <br>
+                        <a href="mailto:sale@salsapiente.ru " class="mail">sale@salsapiente.ru </a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="partner-quality">
+        <div class="container">
+            <div class="partner-quality__text">
+                <div class="video">
+                    <div class="video__player" id="video1"></div>
+                    <div class="video__placeholder" style="background-image: url(img/video.jpg);" data-id="0">
+                        <div class="video__text">
+                            Смотреть видео о компании
+                            <span>за 2 минуты</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="s-title-mini">Европейское качество!</div>
+                <p><img src="img/quality.jpg" alt=""></p>
+                <ul>
+                    <li>Сертификат соответствия ГОСТ Министерства строительства РФ на керамогранит и керамическую плитку</li>
+                    <li>Экспертное заключение о соответствии санитарно-эпидемиологической и гигиеническим требованиям</li>
+                </ul>
+                <p><b>Прямые поставки и цены производителя!</b></p>
+                <ul>
+                    <li>Бренд Sal Sapiente уже более 15 лет на рынке строительного керамогранита</li>
+                    <li>Работаем без посредников!</li>
+                </ul>
+                <p><b>Всегда в наличии на складе!</b></p>
+                <ul>
+                    <li>Большой выбор и постоянно обновляющийся ассортимент керамогранита, керамической плитки и мозаики</li>
+                    <li>Стабильный складской запас более 300 000 м² на складе в Химках</li>
+                </ul>
+                <p><b>Специально для вас!</b></p>
+                <ul>
+                    <li>Фирменный show room на Калужской для удобства выбора вам и вашим заказчикам. Сервис VIP+</li>
+                    <li>Разработана партнерская программа, включающая систему скидок и защиту проектов</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners-info">
+        <div class="container">
+            <div class="partners-info__item">
+                <div class="partners-info__img"><img src="img/partners/present.png" alt=""></div>
+                Получите презентацию <br> по сотрудничеству
+                <a href="#" class="btn btn-brown">Получить презентацию</a>
+            </div>
+            <div class="partners-info__item">
+                <div class="partners-info__img"><img src="img/partners/obrazets.png" alt=""></div>
+                Сделаем для вас и пришлем <br> любые образцы продукции
+                <a href="#" class="btn btn-brown">Получить образцы</a>
+            </div>
+            <div class="partners-info__item">
+                <div class="partners-info__img"><img src="img/partners/shouroom.png" alt=""></div>
+                Посетите удобный шоурум <br> с переговорной комнатой
+                <a href="#" class="btn btn-brown">Посетить шоурум</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="news-section">
+        <div class="container">
+            <div class="s-title-mini">Материалы от основателя</div>
+            <div class="news-list">
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l6.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l1.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l2.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+                <article class="news-item">
+                    <a href="#" class="news-item__img">
+                        <img src="img/tovar/l3.jpg" alt="">
+                    </a>
+                    <a href="#" class="news-item__category">Новости</a>
+                    <div class="news-item__title">
+                        <a href="#">Тон и калибровка плитки</a>
+                    </div>
+                    <p>Их нужно учитывать при проектировании, раскладке и укладке</p>
+                    <div class="news-item__date">12 апреля</div>
+                </article>
+            </div>
+            <a href="#" class="link-view-all">Смотреть все</a>
+        </div>
+    </section>
+
+    <section class="s-projects s-projects-partners">
+        <div class="container bb">
+            <div class="s-title-mini">Проекты с использованием наших коллекций</div>
+            
+            <div class="projects-list">
+                <div class="projects-item">
+                    <a href="img/tovar/l1.jpg" data-fancybox class="projects-item__img">
+                        <img src="img/tovar/l1.jpg" alt="">
+                    </a>
+                    <a href="#" class="projects-item__type">Керамогранит</a>
+                    <div class="projects-item__name"><a href="#">Гостиница Radisson</a></div>
+                    <ul class="projects-item__info">
+                        <li>
+                            <span>Коллекция</span>
+                            <a href="#">
+                                Art Stone
+                            </a>
+                        </li>
+                        <li>
+                            <span>Тип помещения</span> Лобби
+                        </li>
+                        <li>
+                            <span>Площадь</span> 125 м²
+                        </li>
+                    </ul>
+                </div>
+                <div class="projects-item">
+                    <a href="img/tovar/l2.jpg" data-fancybox class="projects-item__img">
+                        <img src="img/tovar/l2.jpg" alt="">
+                    </a>
+                    <a href="#" class="projects-item__type">Керамогранит</a>
+                    <div class="projects-item__name"><a href="#">Гостиница Radisson</a></div>
+                    <ul class="projects-item__info">
+                        <li>
+                            <span>Коллекция</span>
+                            <a href="#">
+                                Art Stone
+                            </a>
+                        </li>
+                        <li>
+                            <span>Тип помещения</span> Лобби
+                        </li>
+                        <li>
+                            <span>Площадь</span> 125 м²
+                        </li>
+                    </ul>
+                </div>
+                <div class="projects-item">
+                    <a href="img/tovar/l3.jpg" data-fancybox class="projects-item__img">
+                        <img src="img/tovar/l3.jpg" alt="">
+                    </a>
+                    <a href="#" class="projects-item__type">Керамогранит</a>
+                    <div class="projects-item__name"><a href="#">Гостиница Radisson</a></div>
+                    <ul class="projects-item__info">
+                        <li>
+                            <span>Коллекция</span>
+                            <a href="#">
+                                Art Stone
+                            </a>
+                        </li>
+                        <li>
+                            <span>Тип помещения</span> Лобби
+                        </li>
+                        <li>
+                            <span>Площадь</span> 125 м²
+                        </li>
+                    </ul>
+                </div>
+                <div class="projects-item">
+                    <a class="projects-item__img" href="img/tovar/l9.jpg" data-fancybox>
+                        <img src="img/tovar/l9.jpg" alt="">
+                    </a>
+                    <a href="#" class="projects-item__type">Керамогранит</a>
+                    <div class="projects-item__name"><a href="#">Гостиница Radisson</a></div>
+                    <ul class="projects-item__info">
+                        <li>
+                            <span>Коллекция</span>
+                            <a href="#">
+                                Art Stone
+                            </a>
+                        </li>
+                        <li>
+                            <span>Тип помещения</span> Лобби
+                        </li>
+                        <li>
+                            <span>Площадь</span> 125 м²
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <a href="#" class="link-view-all">Смотреть все</a>
+        </div>
+    </section>
+
+
+    
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+
+
+<!-- @import #sorse/kit/footer.kit -->
+
+<script src="//www.youtube.com/player_api"></script>
+
+<script>
+    var player = [];
+
+    function onYouTubeIframeAPIReady() {
+        player[0] = new YT.Player('video1', {
+            height: 'auto',
+            width: 'auto',
+            videoId: '6d8_PaiCXBI',
+        });
+        player[1] = new YT.Player('video2', {
+            height: 'auto',
+            width: 'auto',
+            videoId: '6d8_PaiCXBI',
+        });
+    }
+    $(document).on('click', '.video__placeholder', function () {
+        $(this).hide(0);
+        var playerVider = Number($(this).attr('data-id'));
+        player[playerVider].playVideo();
+    });
+</script>
+
+
+</body>
+
+</html>

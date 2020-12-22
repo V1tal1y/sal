@@ -1,0 +1,556 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Сравнение</span>
+        </li>
+    </ul>
+</div>
+
+<main>
+    <section class="s-comparison">
+        <div class="container bb">
+            <div class="comparison-top">
+                <div class="s-title">Сравнение (6)</div>
+                <div class="comparison-types">
+                    <a class="btn btn-brown active" href="#">Все характеристики</a>
+                    <a class="btn btn-wbrown" href="#">Показать различия</a>
+                </div>
+            </div>
+            
+            <div class="comparison">
+                <div class="comparison__left">
+                    <div class="comparison__left-top">
+                        <div class="select-item">
+                            <div class="select-item__title">
+                                <div class="select-item__title-text">Керамогранит (6) </div> 
+                                <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.07805 5.60945L5.61016 10.2962L10.297 5.60945" stroke-linecap="square"/></svg>
+                            </div>
+                            <div class="select-item__body">
+                                <div class="select-item__el">Керамогранит (6)</div>
+                                <div class="select-item__el">Гранит (3)</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    <ul class="comparison__titels">
+                        <li>Размер</li>
+                        <li>Вид</li>
+                        <li>Применение</li>
+                    </ul>
+                    <ul class="comparison__titels">
+                        <li>Форма</li>
+                        <li>Цвет</li>
+                    </ul>
+                    <ul class="comparison__titels">
+                        <li>Вес упаковки</li>
+                        <li>Площадь плитки</li>
+                        <li>Кол-во м² в упак.</li>
+                        <li>Кол-во штук в упак.</li>
+                    </ul>
+                    <ul class="comparison__titels last">
+                        <li>На складе</li>
+                        <li>Цена</li>
+                    </ul>
+                </div>
+                <div class="comparison__right">
+                    
+                    <div class="comparison-slider swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="comparison-item swiper-slide">
+                                <div class="comparison-card">
+                                    <div class="card__hit">хит</div>
+                                    <a href="img/tovar/2.jpg" class="card__img" data-fancybox>
+                                        <img src="img/tovar/2.jpg" alt="">
+                                    </a>
+                                    <div class="card__top">
+                                        <div class="card__code">SPP 8831 A</div>
+                                        <div class="card__name">
+                                            <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card__hidden">
+                                        <a href="#" class="btn btn-brown">В корзину</a>
+                                        <div class="card__link"><a href="#">Сравнить</a></div>
+                                        <div class="card__link"><a href="#">В избранное</a></div>
+                                        <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                                    </div>
+                                </div>
+
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Размер</span> 30х30см
+                                    </li>
+                                    <li>
+                                        <span>Вид</span> Настенный
+                                    </li>
+                                    <li>
+                                        <span>Применение</span> Универсальная
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Форма</span> Прямоугольник
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span> Серый
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Вес упаковки</span> 27.5 кг
+                                    </li>
+                                    <li>
+                                        <span>Площадь плитки</span> 0.24 м²
+                                    </li>
+                                    <li>
+                                        <span>Кол-во м2 в упак.</span> 1.44 м²
+                                    </li>
+                                    <li>
+                                        <span>Кол-во штук в упак.</span> 6 шт
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info last">
+                                    <li>
+                                        <span>На складе</span> 3567 м²
+                                    </li>
+                                    <li>
+                                        <span>Цена</span> 500 ₽ за м²
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="comparison-item swiper-slide">
+                                <div class="comparison-card">
+                                    <div class="card__hit">хит</div>
+                                    <a href="img/tovar/2.jpg" class="card__img" data-fancybox>
+                                        <img src="img/tovar/2.jpg" alt="">
+                                    </a>
+                                    <div class="card__top">
+                                        <div class="card__code">SPP 8831 A</div>
+                                        <div class="card__name">
+                                            <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card__hidden">
+                                        <a href="#" class="btn btn-brown">В корзину</a>
+                                        <div class="card__link"><a href="#">Сравнить</a></div>
+                                        <div class="card__link"><a href="#">В избранное</a></div>
+                                        <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                                    </div>
+                                </div>
+
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Размер</span> 30х30см
+                                    </li>
+                                    <li>
+                                        <span>Вид</span> Настенный
+                                    </li>
+                                    <li>
+                                        <span>Применение</span> Универсальная
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Форма</span> Прямоугольник
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span> Серый
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Вес упаковки</span> 27.5 кг
+                                    </li>
+                                    <li>
+                                        <span>Площадь плитки</span> 0.24 м²
+                                    </li>
+                                    <li>
+                                        <span>Кол-во м2 в упак.</span> 1.44 м²
+                                    </li>
+                                    <li>
+                                        <span>Кол-во штук в упак.</span> 6 шт
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info last">
+                                    <li>
+                                        <span>На складе</span> 3567 м²
+                                    </li>
+                                    <li>
+                                        <span>Цена</span> 500 ₽ за м²
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="comparison-item swiper-slide">
+                                <div class="comparison-card">
+                                    <div class="card__hit">хит</div>
+                                    <a href="img/tovar/2.jpg" class="card__img" data-fancybox>
+                                        <img src="img/tovar/2.jpg" alt="">
+                                    </a>
+                                    <div class="card__top">
+                                        <div class="card__code">SPP 8831 A</div>
+                                        <div class="card__name">
+                                            <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card__hidden">
+                                        <a href="#" class="btn btn-brown">В корзину</a>
+                                        <div class="card__link"><a href="#">Сравнить</a></div>
+                                        <div class="card__link"><a href="#">В избранное</a></div>
+                                        <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                                    </div>
+                                </div>
+
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Размер</span> 30х30см
+                                    </li>
+                                    <li>
+                                        <span>Вид</span> Настенный
+                                    </li>
+                                    <li>
+                                        <span>Применение</span> Универсальная
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Форма</span> Прямоугольник
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span> Серый
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Вес упаковки</span> 27.5 кг
+                                    </li>
+                                    <li>
+                                        <span>Площадь плитки</span> 0.24 м²
+                                    </li>
+                                    <li>
+                                        <span>Кол-во м2 в упак.</span> 1.44 м²
+                                    </li>
+                                    <li>
+                                        <span>Кол-во штук в упак.</span> 6 шт
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info last">
+                                    <li>
+                                        <span>На складе</span> 3567 м²
+                                    </li>
+                                    <li>
+                                        <span>Цена</span> 500 ₽ за м²
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="comparison-item swiper-slide">
+                                <div class="comparison-card">
+                                    <div class="card__hit">хит</div>
+                                    <a href="img/tovar/2.jpg" class="card__img" data-fancybox>
+                                        <img src="img/tovar/2.jpg" alt="">
+                                    </a>
+                                    <div class="card__top">
+                                        <div class="card__code">SPP 8831 A</div>
+                                        <div class="card__name">
+                                            <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card__hidden">
+                                        <a href="#" class="btn btn-brown">В корзину</a>
+                                        <div class="card__link"><a href="#">Сравнить</a></div>
+                                        <div class="card__link"><a href="#">В избранное</a></div>
+                                        <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                                    </div>
+                                </div>
+
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Размер</span> 30х30см
+                                    </li>
+                                    <li>
+                                        <span>Вид</span> Настенный
+                                    </li>
+                                    <li>
+                                        <span>Применение</span> Универсальная
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Форма</span> Прямоугольник
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span> Серый
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Вес упаковки</span> 27.5 кг
+                                    </li>
+                                    <li>
+                                        <span>Площадь плитки</span> 0.24 м²
+                                    </li>
+                                    <li>
+                                        <span>Кол-во м2 в упак.</span> 1.44 м²
+                                    </li>
+                                    <li>
+                                        <span>Кол-во штук в упак.</span> 6 шт
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info last">
+                                    <li>
+                                        <span>На складе</span> 3567 м²
+                                    </li>
+                                    <li>
+                                        <span>Цена</span> 500 ₽ за м²
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="comparison-item swiper-slide">
+                                <div class="comparison-card">
+                                    <div class="card__hit">хит</div>
+                                    <a href="img/tovar/2.jpg" class="card__img" data-fancybox>
+                                        <img src="img/tovar/2.jpg" alt="">
+                                    </a>
+                                    <div class="card__top">
+                                        <div class="card__code">SPP 8831 A</div>
+                                        <div class="card__name">
+                                            <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card__hidden">
+                                        <a href="#" class="btn btn-brown">В корзину</a>
+                                        <div class="card__link"><a href="#">Сравнить</a></div>
+                                        <div class="card__link"><a href="#">В избранное</a></div>
+                                        <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                                    </div>
+                                </div>
+
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Размер</span> 30х30см
+                                    </li>
+                                    <li>
+                                        <span>Вид</span> Настенный
+                                    </li>
+                                    <li>
+                                        <span>Применение</span> Универсальная
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Форма</span> Прямоугольник
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span> Серый
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Вес упаковки</span> 27.5 кг
+                                    </li>
+                                    <li>
+                                        <span>Площадь плитки</span> 0.24 м²
+                                    </li>
+                                    <li>
+                                        <span>Кол-во м2 в упак.</span> 1.44 м²
+                                    </li>
+                                    <li>
+                                        <span>Кол-во штук в упак.</span> 6 шт
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info last">
+                                    <li>
+                                        <span>На складе</span> 3567 м²
+                                    </li>
+                                    <li>
+                                        <span>Цена</span> 500 ₽ за м²
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="comparison-item swiper-slide">
+                                <div class="comparison-card">
+                                    <div class="card__hit">хит</div>
+                                    <a href="img/tovar/2.jpg" class="card__img" data-fancybox>
+                                        <img src="img/tovar/2.jpg" alt="">
+                                    </a>
+                                    <div class="card__top">
+                                        <div class="card__code">SPP 8831 A</div>
+                                        <div class="card__name">
+                                            <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card__hidden">
+                                        <a href="#" class="btn btn-brown">В корзину</a>
+                                        <div class="card__link"><a href="#">Сравнить</a></div>
+                                        <div class="card__link"><a href="#">В избранное</a></div>
+                                        <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                                    </div>
+                                </div>
+
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Размер</span> 30х30см
+                                    </li>
+                                    <li>
+                                        <span>Вид</span> Настенный
+                                    </li>
+                                    <li>
+                                        <span>Применение</span> Универсальная
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Форма</span> Прямоугольник
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span> Серый
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Вес упаковки</span> 27.5 кг
+                                    </li>
+                                    <li>
+                                        <span>Площадь плитки</span> 0.24 м²
+                                    </li>
+                                    <li>
+                                        <span>Кол-во м2 в упак.</span> 1.44 м²
+                                    </li>
+                                    <li>
+                                        <span>Кол-во штук в упак.</span> 6 шт
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info last">
+                                    <li>
+                                        <span>На складе</span> 3567 м²
+                                    </li>
+                                    <li>
+                                        <span>Цена</span> 500 ₽ за м²
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="comparison-item swiper-slide">
+                                <div class="comparison-card">
+                                    <div class="card__hit">хит</div>
+                                    <a href="img/tovar/2.jpg" class="card__img" data-fancybox>
+                                        <img src="img/tovar/2.jpg" alt="">
+                                    </a>
+                                    <div class="card__top">
+                                        <div class="card__code">SPP 8831 A</div>
+                                        <div class="card__name">
+                                            <a href="#">Керамогранит под камень Gofratto 60x60</a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="card__hidden">
+                                        <a href="#" class="btn btn-brown">В корзину</a>
+                                        <div class="card__link"><a href="#">Сравнить</a></div>
+                                        <div class="card__link"><a href="#">В избранное</a></div>
+                                        <div class="card__link"><a href="#">Быстрый заказ</a></div>
+                                    </div>
+                                </div>
+
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Размер</span> 30х30см
+                                    </li>
+                                    <li>
+                                        <span>Вид</span> Настенный
+                                    </li>
+                                    <li>
+                                        <span>Применение</span> Универсальная
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Форма</span> Прямоугольник
+                                    </li>
+                                    <li>
+                                        <span>Цвет</span> Серый
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info">
+                                    <li>
+                                        <span>Вес упаковки</span> 27.5 кг
+                                    </li>
+                                    <li>
+                                        <span>Площадь плитки</span> 0.24 м²
+                                    </li>
+                                    <li>
+                                        <span>Кол-во м2 в упак.</span> 1.44 м²
+                                    </li>
+                                    <li>
+                                        <span>Кол-во штук в упак.</span> 6 шт
+                                    </li>
+                                </ul>
+                                <ul class="comparison-item__info last">
+                                    <li>
+                                        <span>На складе</span> 3567 м²
+                                    </li>
+                                    <li>
+                                        <span>Цена</span> 500 ₽ за м²
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="swiper-btn swiper-button-next"></div>
+                        <div class="swiper-btn swiper-button-prev"></div>
+                    </div>
+
+                    
+
+
+                    <div class="card">
+                        
+
+                        <div class="">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+
+
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+
+
+<script src="//www.youtube.com/player_api"></script>
+
+
+
+</body>
+
+</html>

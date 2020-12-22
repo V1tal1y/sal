@@ -1,0 +1,60 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Гарантии</span>
+        </li>
+    </ul>
+</div>
+<main>
+    <section class="info-page">
+        <div class="container bb">
+            <div class="info-page__sidebar">
+                <nav class="company-nav">
+                    <ul>
+                        <li class="company-nav__item"><a href="info-page-pay.html">Оплата</a></li>
+                        <li class="company-nav__item"><a href="info-page-delivery.html">Доставка</a></li>
+                        <li class="company-nav__item active"><a href="info-page-warranty.html">Гарантии</a></li>
+                        <li class="company-nav__item"><a href="info-page-exchange.html">Возврат и обмен</a></li>
+                        <li class="company-nav__item"><a href="info-page-credit.html">Покупка в кредит</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="info-page__content info-warranty">
+                <div class="s-title">Гарантии</div>
+                <p><b>Гарантия на товар предоставляется согласно <br> законодательству РФ</b></p>
+                <div class="company-licenses">
+                    <div class="license-card">
+                        <a href="img/certificate/1.jpg" class="license-card__img" data-fancybox=""><img src="img/certificate/1.jpg" alt=""></a>
+                        <div class="license-card__download">
+                            <a href="#">Скачать PDF</a>
+                            <div class="license-card__size">0,7 mb</div>
+                        </div>
+                        Сертификат соответствия ГОСТ. Продукция: плиты керамические Sal Sapiente
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+</body>
+
+</html>

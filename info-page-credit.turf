@@ -1,0 +1,52 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Покупка в кредит</span>
+        </li>
+    </ul>
+</div>
+<main>
+    <section class="info-page">
+        <div class="container bb">
+            <div class="info-page__sidebar">
+                <nav class="company-nav">
+                    <ul>
+                        <li class="company-nav__item"><a href="info-page-pay.html">Оплата</a></li>
+                        <li class="company-nav__item"><a href="info-page-delivery.html">Доставка</a></li>
+                        <li class="company-nav__item"><a href="info-page-warranty.html">Гарантии</a></li>
+                        <li class="company-nav__item"><a href="info-page-exchange.html">Возврат и обмен</a></li>
+                        <li class="company-nav__item active"><a href="info-page-credit.html">Покупка в кредит</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="info-page__content info-credit">
+                <div class="s-title">Покупка в кредит</div>
+                <p><b>Пожалуйста, будьте готовы предоставить паспорт при получении кредита. Также банки вправе потребовать иные дополнительные документы и подтверждение доходов заемщика.</b></p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+</body>
+
+</html>

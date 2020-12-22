@@ -29,6 +29,9 @@ $(function() {
         $(this).toggleClass('active')
         $('.nav-mobile').slideToggle('slow')
     });
+    $('.company-nav__item.active').click(function() {
+        $(this).parent().toggleClass('active-nav')
+    });
 
     $('.show-all-cards').click(function() {
         let txt = $(this).text().trim();
@@ -48,6 +51,14 @@ $(function() {
         $(this).parent().toggleClass('active');
     });
 
+
+    $('.select-item__title').click(function() {
+        $(this).parent().toggleClass('active');
+    });
+    $('.select-item__el').click(function() {
+        var txtEl = $(this).text();
+        $(this).parents('.select-item').removeClass('active').find('.select-item__title-text').text(txtEl);
+    });
 
     // filter and sorts
     $('.show-all-filter a').click(function() {

@@ -71,6 +71,10 @@
         font-size: 13px
         opacity: 0.5
 
+.s-one-news
+    .container
+        padding-bottom: 45px
+        border-bottom: 1px solid $bord
 
 
 .one-news
@@ -192,6 +196,8 @@
         padding: 10px 0 12px
         a
             font-weight: 600
+            &:hover
+                color: $brownh
     &__date
         font-size: 13px
         opacity: 0.5
@@ -209,7 +215,9 @@
         font-size: 28px
         padding-bottom: 30px
 
-
+.widget-news-stock
+    .widget-news__name
+        padding: 0
 
 
 
@@ -279,9 +287,9 @@
     .sidebar-news
         width: 100%
         padding-top: 30px
-        padding-bottom: 30px
-        border-bottom: 1px solid $bord
-
+    .s-one-news
+        .container
+            padding-bottom: 35px
 
 
 @media screen and (max-width: 950px )
@@ -335,7 +343,11 @@
                 width: calc( 50% - 10px )
                 margin-bottom: 20px
                 margin-right: 0
-    
+    .s-one-news
+        .container
+            padding-bottom: 30px
+    .widget-news__name
+        font-size: 16px
 @media screen and (max-width: 450px )
     .news-item
         &__img

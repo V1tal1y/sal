@@ -27,10 +27,10 @@
             <h1 class="s-title">3D-дизайн проект в подарок</h1>
             <p>Мы делаем визуализацию и 3D-дизайн проект в подарок всем покупателям. Чтобы получить дизайн-проект, оставьте заявку</p>
             <form class="stocks3d-form">
-                <label>
+                <label class="label-input">
                     <input type="email" placeholder="Ваш email">
                 </label>
-                <label>
+                <label class="label-input">
                     <input type="tel" placeholder="Ваш телефон">
                 </label>
                 <button class="btn btn-brown">Оставить заявку</button>
@@ -42,7 +42,7 @@
     <section class="s-completed-projects">
         <div class="container">
             <div class="s-title-mini">Выполненные проекты</div>
-            <div class="__types">
+            <div class="projects-types-nav">
                 <a href="#" class="active">Все</a>
                 <a href="#">Ванные</a>
                 <a href="#">Кухни</a>

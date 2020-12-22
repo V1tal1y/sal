@@ -12,7 +12,7 @@
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
             <a href="#" title="Портфолио" itemprop="item">
                 <span itemprop="name">Портфолио</span>
-                <meta itemprop="position" content="0">
+                <meta itemprop="position" content="1">
             </a>
         </li>
         <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">

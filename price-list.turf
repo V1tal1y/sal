@@ -1,0 +1,150 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Прайс-лист</span>
+        </li>
+    </ul>
+</div>
+
+<main>
+    <section class="prices">
+        <div class="container bb">
+            <div class="prices__top">
+                <div class="s-title">Прайс-лист</div>
+                <form class="prices__filter">
+                    <label class="input-label">
+                        <input type="text" placeholder="Поиск по прайс-листу">
+                    </label>
+                    <button class="btn btn-border">Найти</button>
+                </form>
+            </div>
+            
+            <div class="s-title-mini">Art Stone</div>
+            <div class="s-title-mini fw-normal">Глазурованная матовая серия 60х60</div>
+            <div class="price-list">
+                <div class="price-list__item">
+                    <a href="#">
+                        <img src="img/tovar/1.jpg" alt="">
+                        MSA 6009 <br> 1700 РУБ. / M²
+                    </a>
+                </div>
+                <div class="price-list__item">
+                    <a href="#">
+                        <img src="img/tovar/2.jpg" alt="">
+                        MSA 6009 <br> 1700 РУБ. / M²
+                    </a>
+                </div>
+                <div class="price-list__item">
+                    <a href="#">
+                        <img src="img/tovar/3.jpg" alt="">
+                        MSA 6009 <br> 1700 РУБ. / M²
+                    </a>
+                </div>
+            </div>
+
+            <div class="s-title-mini fw-normal">Глазурованная полированная серия 60х60</div>
+            <div class="price-list">
+                <div class="price-list__item">
+                    <a href="#">
+                        <img src="img/tovar/1.jpg" alt="">
+                        MSA 6009 <br> 1700 РУБ. / M²
+                    </a>
+                </div>
+                <div class="price-list__item">
+                    <a href="#">
+                        <img src="img/tovar/2.jpg" alt="">
+                        MSA 6009 <br> 1700 РУБ. / M²
+                    </a>
+                </div>
+                <div class="price-list__item">
+                    <a href="#">
+                        <img src="img/tovar/3.jpg" alt="">
+                        MSA 6009 <br> 1700 РУБ. / M²
+                    </a>
+                </div>
+                <div class="price-list__item">
+                    <a href="#">
+                        <img src="img/tovar/4.jpg" alt="">
+                        MSA 6009 <br> 1700 РУБ. / M²
+                    </a>
+                </div>
+                <div class="price-list__item">
+                    <a href="#">
+                        <img src="img/tovar/1.jpg" alt="">
+                        MSA 6009 <br> 1700 РУБ. / M²
+                    </a>
+                </div>
+                <div class="price-list__item">
+                    <a href="#">
+                        <img src="img/tovar/2.jpg" alt="">
+                        MSA 6009 <br> 1700 РУБ. / M²
+                    </a>
+                </div>
+                <div class="price-list__item">
+                    <a href="#">
+                        <img src="img/tovar/3.jpg" alt="">
+                        MSA 6009 <br> 1700 РУБ. / M²
+                    </a>
+                </div>
+                <div class="price-list__item">
+                    <a href="#">
+                        <img src="img/tovar/4.jpg" alt="">
+                        MSA 6009 <br> 1700 РУБ. / M²
+                    </a>
+                </div>
+                <div class="price-list__item">
+                    <a href="#">
+                        <img src="img/tovar/1.jpg" alt="">
+                        MSA 6009 <br> 1700 РУБ. / M²
+                    </a>
+                </div>
+                <div class="price-list__item">
+                    <a href="#">
+                        <img src="img/tovar/2.jpg" alt="">
+                        MSA 6009 <br> 1700 РУБ. / M²
+                    </a>
+                </div>
+                <div class="price-list__item">
+                    <a href="#">
+                        <img src="img/tovar/3.jpg" alt="">
+                        MSA 6009 <br> 1700 РУБ. / M²
+                    </a>
+                </div>
+                <div class="price-list__item">
+                    <a href="#">
+                        <img src="img/tovar/4.jpg" alt="">
+                        MSA 6009 <br> 1700 РУБ. / M²
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+
+
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+
+
+<script src="//www.youtube.com/player_api"></script>
+
+
+
+</body>
+
+</html>

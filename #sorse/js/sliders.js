@@ -11,6 +11,7 @@ var mainBan = new Swiper('.main-ban', {
 });
 var aboutMain = new Swiper('.about-main__slider', {
     loop: false,
+    spaceBetween: 5,
     navigation: {
         nextEl: '.about-main__slider .swiper-button-next',
         prevEl: '.about-main__slider .swiper-button-prev',
@@ -20,10 +21,36 @@ var aboutMain = new Swiper('.about-main__slider', {
         el: '.about-main__slider .swiper-pagination',
     },
 });
+var tour3d = new Swiper('.tour3d-slider', {
+    loop: false,
+    spaceBetween: 5,
+    navigation: {
+        nextEl: '.tour3d-slider .swiper-button-next',
+        prevEl: '.tour3d-slider .swiper-button-prev',
+    },
+    pagination: {
+        clickable: true,
+        el: '.tour3d-slider .swiper-pagination',
+    },
+});
+var imageSlider = new Swiper('.images-slider', {
+    loop: false,
+    spaceBetween: 5,
+    navigation: {
+        nextEl: '.images-slider .swiper-button-next',
+        prevEl: '.images-slider .swiper-button-prev',
+    },
+    pagination: {
+        clickable: true,
+        el: '.images-slider .swiper-pagination',
+    },
+});
 
-var newsList = new Swiper('.news-list', {
+
+
+var newsList = new Swiper('.news-list.swiper-container', {
     slidesPerView: 1,
-    spaceBetween: 0,
+    spaceBetween: 5,
     pagination: {
         clickable: true,
         el: '.news-list .swiper-pagination',
@@ -71,6 +98,36 @@ var newsList = new Swiper('.previously-viewed .swiper-container', {
     },
 });
 
+var comparisonSlider = new Swiper('.comparison-slider', {
+    slidesPerView: 2,
+    // spaceBetween: 30,
+    spaceBetween: 15,
+    navigation: {
+        nextEl: '.comparison-slider .swiper-button-next',
+        prevEl: '.comparison-slider .swiper-button-prev',
+    },
+    breakpoints: {
+        550: {
+            slidesPerView: 3,
+        },
+        750: {
+            slidesPerView: 3,
+            spaceBetween: 0,
+        },
+        1199: {
+            spaceBetween: 0,
+            slidesPerView: 4,
+        },
+        1499: {
+            spaceBetween: 0,
+            slidesPerView: 5,
+            // cssMode: true,
+        },
+    },
+});
+
+
+
 
 var catalogCardSlider = new Swiper('.catalog-card__slider', {
     loop: true,
@@ -101,7 +158,7 @@ var galleryThumbs = new Swiper('.card-tile__gallery-thumbs', {
         950: {
             slidesPerView: 4,
         },
-        1500: {
+        1499: {
             spaceBetween: 20,
         },
     },
@@ -138,7 +195,7 @@ var privateGalleryThumbs = new Swiper('.private-card__gallery-thumbs', {
         1199: {
             slidesPerView: 9,
         },
-        1500: {
+        1499: {
             spaceBetween: 12,
         },
     },

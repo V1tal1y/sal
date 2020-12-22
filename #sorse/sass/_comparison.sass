@@ -1,0 +1,352 @@
+.comparison
+    display: flex
+    justify-content: space-between
+    &__right
+        width: calc( 100% - (100% / 6) )
+        margin-top: -25px
+    &__left
+        width: calc( 100% / 6 )
+        &-top
+            position: relative
+            margin-right: 15px
+            &::after
+                content: ''
+                padding: 100% 0 92px
+                width: 100%
+                display: block
+            .select-item
+                position: absolute
+                top: 0
+                left: 0
+                // width: calc(100% - 15px)
+                width: 100%
+    &-slider
+        width: calc( 100% + 20px )
+        padding: 10px 10px 0
+        margin-left: -10px
+        .swiper-btn
+            top: 8vw
+        .swiper-button-disabled
+            display: none
+        .swiper-button-next
+            margin-right: 15px
+        .swiper-button-prev
+            margin-left: 15px
+
+    &-top
+        display: flex
+        justify-content: space-between
+        align-items: center
+        padding-bottom: 10px
+    &-types
+        display: flex
+        justify-content: space-between
+        width: 350px
+        margin-bottom: 20px
+        .btn
+            width: 50%
+            height: 40px
+            font-size: 15px
+            &.active
+                cursor: default
+
+
+
+.comparison__titels
+    color: $dop
+
+.comparison-item__info,
+.comparison__titels
+    padding: 20px 0
+    font-size: 15px
+    line-height: 1.6
+    border-top: 1px solid $dop15
+    &.last
+        li
+            &:first-child
+                height: 50px
+    
+.comparison-item__info
+    padding-left: 15px
+    span
+        display: none
+    &.last
+        li
+            &:last-child
+                font-weight: bold
+    
+.comparison-card
+    padding: 15px 0 0
+    position: relative
+    margin: 0 15px
+
+    &::before
+        content: ''
+        display: block
+        position: absolute
+        background: #FFFFFF
+        box-shadow: 0px 4px 16px -4px rgba(0, 0, 0, 0.35)
+        z-index: -1
+        opacity: 0
+        transition: all 0.15s ease-in-out
+        width: calc(100% + 30px)
+        height: calc(100% + 115px)
+        left: -15px
+        top: 0px
+        pointer-events: none
+    &:hover
+        position: relative
+        z-index: 2
+        &::before
+            opacity: 1
+        .card
+            &__hidden
+                display: flex
+    &__img
+    .card
+        &__name
+            margin-bottom: 0
+        &__hit
+            top: 7px
+            right: -3px
+        &__top
+            min-height: 90px
+        &__hidden
+            padding: 0
+            margin-top: -5px
+
+
+.select-item
+    position: relative
+    &__body
+        position: absolute
+        top: 100%
+        left: 0
+        width: 100%
+        display: none
+        background: #ffffff
+    &__el
+        padding: 13px 15px
+        border: 1px solid $brown
+        border-top: none
+        color: $brown
+        cursor: pointer
+        transition: all 0.15s ease-in-out
+        &:hover
+            background: #EBEBEB
+    &.active
+        .select-item
+            &__title
+                color: #ffffff
+                background: $brown
+                border-color: $brown
+                svg
+                    stroke: #ffffff
+                    transform: rotate(180deg) translateY(-6px)
+            &__body
+                display: block
+    &__title
+        width: 100%
+        height: 60px
+        display: flex
+        align-items: center
+        padding-left: 15px
+        padding-right: 40px
+        position: relative
+        border: 1px solid $brown
+        cursor: pointer
+        color: $brown
+        transition: all 0.15s ease-in-out
+        &:hover
+            color: #ffffff
+            background: $brownh
+            border-color: $brownh
+            svg
+                stroke: #ffffff
+        svg
+            position: absolute
+            top: 49%
+            margin-top: -5px
+            right: 20px
+            stroke: $brown
+            transition: all 0.15s ease-in-out
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1500px )
+    .comparison
+        &-slider
+            .swiper-btn
+                top: 10vw
+        &__right
+            width: calc( 100% - (100% / 5) )
+        &__left
+            width: calc( 100% / 5 )
+
+
+@media screen and (max-width: 1199px )
+    
+    .comparison
+        &-slider
+            .swiper-btn
+                top: 12vw
+        &__left
+            width: 25%
+        &__right
+            width: 75%
+        
+@media screen and (max-width: 950px )
+    
+    .comparison
+        display: block
+        &-top
+            display: block
+            padding-bottom: 0
+        &-types
+            width: 350px
+        &__left
+            display: block
+            width: 100%
+            position: relative
+            z-index: 2
+            padding-bottom: 5px
+            .comparison__titels
+                display: none
+            &-top
+                width: 100%
+                max-width: 350px
+                margin-right: 0
+                .select-item
+                    position: relative
+                    top: auto
+                    left: auto
+                &::after
+                    display: none
+        &-slider
+            margin-left: -25px
+            width: calc( 100% +  45px )
+            .swiper-btn
+                top: 15vw
+        &__right
+            width: 100%
+            margin-top: 0
+        &-item
+            &__info 
+                li
+                    padding: 3px 0
+                span
+                    display: block
+                    opacity: 0.5
+        
+
+
+@media screen and (max-width: 750px )
+    .comparison
+        &-slider
+            width: calc( 100% + 10px )
+            padding: 0 5px
+            margin-left: -5px
+            .swiper-btn
+                top: 100px
+                margin-left: 0
+                margin-right: 0
+        &-card
+            margin: 0
+            &:hover::before
+                display: none
+            .card
+                &__hidden
+                    position: static
+                    padding: 5px 0 15px
+                    display: flex
+                    opacity: 1
+                &__link
+                    &:nth-child(odd)
+                        border: none
+                    &:last-child
+                        width: 100%
+                        margin-bottom: 0
+        &-item
+            &__info
+                padding: 15px 0
+                line-height: 1.2
+                font-size: 14px
+                position: relative
+                &::before
+                    content: ''
+                    display: block
+                    position: absolute
+                    top: -1px
+                    left: 100%
+                    width: 15px
+                    height: 1px
+                    background: rgba(29, 30, 32, 0.15)
+
+    .select-item
+        font-size: 13px
+        &__title
+            font-size: 15px
+
+
+@media screen and (max-width: 550px )
+    
+    .comparison
+        &-slider
+            .swiper-btn
+                top: 120px
+
+@media screen and (max-width: 450px )
+    .comparison-item
+        .card__hidden 
+            .btn
+                height: 35px
+                font-size: 12px
+        .card__top
+            min-height: 80px
+        &__info
+            font-size: 13px
+        .card__link
+            font-size: 11px
+            width: 50%
+        
+    .comparison
+        &-types
+             width: 100vw
+             margin-left: -5vw
+        &-slider
+            width: calc( 100% + 20px )
+            padding: 0 10px
+            margin-left: -10px
+            .swiper-btn
+                top: 26vw
+    .comparison-types 
+        .btn
+            font-size: 12px
+
+
+    

@@ -1,0 +1,289 @@
+<!-- @import #sorse/kit/head.kit-->
+<!-- @import #sorse/kit/header.kit-->
+
+<div class="container bread">
+    <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/" title="Sal Sapiente" itemprop="item">
+                <span itemprop="name">Sal Sapiente</span>
+                <meta itemprop="position" content="0">
+            </a>
+        </li>
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <span itemprop="name">Корзина</span>
+        </li>
+    </ul>
+</div>
+<main>
+    <section class="cart-page">
+        <div class="container bb">
+            <div class="s-title">Корзина</div>
+            <div class="cart-table">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="#" class="cart-table__img"><img src="img/tovar/1.jpg" alt=""></a>
+                            </td>
+                            <td>
+                                <a href="#" class="cart-table__name">Керамогранит Gofratto под камень 60х60</a>
+                                <div class="cart-table__grey">SPP 8831 A</div>
+                            </td>
+                            <td>
+                                <div class="cart-table__quantity">
+                                    <div class="cart-table__quantity-item">
+                                        <div class="counter">
+                                            <div class="counter__btn minus">
+                                                <svg width="10" height="2" viewBox="0 0 10 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 1H9" stroke-linecap="square" stroke-linejoin="round"></path></svg>
+                                            </div>
+                                            <input type="text" class="counter__input" value="1" readonly="">
+                                            <div class="counter__btn plus">
+                                                <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 5H8" stroke-linecap="square" stroke-linejoin="round"></path>
+                                                    <path d="M4 1L4 9" stroke-linecap="square" stroke-linejoin="round"></path></svg>
+                                            </div>
+                                        </div>
+                                        <div class="cart-table__grey">7,2 м², 2 упаковки </div>
+                                    </div>
+                                    <div class="cart-table__quantity-item">
+                                        <div class="price-per">
+                                            <label class="radio-square">
+                                                <input type="radio" checked="" name="price-per">
+                                                <span class="check">шт</span>
+                                            </label>
+                                            <label class="radio-square">
+                                                <input type="radio" name="price-per">
+                                                <span class="check">м²</span>
+                                            </label>
+                                            <label class="radio-square">
+                                                <input type="radio" name="price-per">
+                                                <span class="check">уп</span>
+                                            </label>
+                                        </div>
+                                        <div class="cart-table__grey">на складе 1247 м² </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                21 600 ₽
+                                <div class="cart-table__grey">1800 ₽ / м²</div>
+                            </td>
+                            <td>
+                                <a href="#" class="cart-table__del"></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="#" class="cart-table__img"><img src="img/tovar/1.jpg" alt=""></a>
+                            </td>
+                            <td>
+                                <a href="#" class="cart-table__name">Керамогранит Gofratto под камень 60х60</a>
+                                <div class="cart-table__grey">SPP 8831 A</div>
+                            </td>
+                            <td>
+                                <div class="cart-table__quantity">
+                                    <div class="cart-table__quantity-item">
+                                        <div class="counter">
+                                            <div class="counter__btn minus">
+                                                <svg width="10" height="2" viewBox="0 0 10 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 1H9" stroke-linecap="square" stroke-linejoin="round"></path></svg>
+                                            </div>
+                                            <input type="text" class="counter__input" value="1" readonly="">
+                                            <div class="counter__btn plus">
+                                                <svg width="9" height="10" viewBox="0 0 9 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1 5H8" stroke-linecap="square" stroke-linejoin="round"></path>
+                                                    <path d="M4 1L4 9" stroke-linecap="square" stroke-linejoin="round"></path></svg>
+                                            </div>
+                                        </div>
+                                        <div class="cart-table__grey">7,2 м², 2 упаковки </div>
+                                    </div>
+                                    <div class="cart-table__quantity-item">
+                                        <div class="price-per">
+                                            <label class="radio-square">
+                                                <input type="radio" checked="" name="price-per">
+                                                <span class="check">шт</span>
+                                            </label>
+                                            <label class="radio-square">
+                                                <input type="radio" name="price-per">
+                                                <span class="check">м²</span>
+                                            </label>
+                                            <label class="radio-square">
+                                                <input type="radio" name="price-per">
+                                                <span class="check">уп</span>
+                                            </label>
+                                        </div>
+                                        <div class="cart-table__grey">на складе 1247 м² </div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                21 600 ₽
+                                <div class="cart-table__grey">1800 ₽ / м²</div>
+                            </td>
+                            <td>
+                                <a href="#" class="cart-table__del"></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="cart-order">
+        <form class="container bb">
+            <div class="cart-order__left">
+                <div class="cart-order__delivery">
+                    <div class="cart-order__title">Выберите способ доставки</div>
+                    <div class="cart-order__delivery-price"><a href="#">Ценообразование доставки</a></div>
+                    <p><b>Получение в пункте выдачи</b></p>
+                    <table class="cart-order__delivery-table">
+                        <tr>
+                            <td>
+                                <label class="label-radio">
+                                    <input type="radio" checked name="delivery">
+                                    <span class="label-radio__check"></span>
+                                    Самовывоз
+                                </label>
+                            </td>
+                            <td>Бесплатно</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="label-radio">
+                                    <input type="radio" name="delivery">
+                                    <span class="label-radio__check"></span>
+                                    Доставка в пределах МКАД. При заказе от 50 000 ₽ — бесплатно
+                                </label>
+                            </td>
+                            <td>1750 ₽</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="label-radio">
+                                    <input type="radio" name="delivery">
+                                    <span class="label-radio__check"></span>
+                                    Доставка за пределами МКАД. Стоимость за 1 км.
+                                </label>
+                            </td>
+                            <td>40 ₽ / км.</td>
+                        </tr>
+                    </table>
+                    <p><b>Укажите расстояние от МКАД</b></p>
+                    <div class="cart-order__delivery-distance">
+                        <label>
+                            <input type="text" placeholder="Введите цифру" class="cart-input">
+                        </label>
+                        <span>км.</span>
+                    </div>
+                    
+                    <p><b>Адрес доставки</b></p>
+                    <label class="cart-order__delivery-adress">
+                        <input type="text" placeholder="Введите город, улицу, дом" class="cart-input">
+                    </label>
+
+                    <div class="cart-order__delivery-climb">
+                        <label class="label-checkbox">
+                            <input type="checkbox" name="">
+                            <span class="label-checkbox__check"></span>
+                            Нужен подъём товара на этаж
+                        </label>
+                    </div>
+                </div>
+
+                <div class="cart-order__pay">
+                    <div class="cart-order__title">Способ оплаты</div>
+                    <ul class="cart-order__pay-list">
+                        <li>
+                            <label class="label-radio">
+                                <input type="radio" checked name="pay">
+                                <span class="label-radio__check"></span>
+                                Наличные
+                            </label>
+                        </li>
+                        <li>
+                            <label class="label-radio">
+                                <input type="radio" name="pay">
+                                <span class="label-radio__check"></span>
+                                Банковской картой
+                            </label>
+                        </li>
+                        <li>
+                            <label class="label-radio">
+                                <input type="radio" name="pay">
+                                <span class="label-radio__check"></span>
+                                Счёт для юр. лиц
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cart-order__data">
+                    <div class="cart-order__title">Контактные данные</div>
+                    <div class="cart-order__data-inputs">
+                        <div class="input">
+                            <label>
+                                <input type="text" placeholder="Имя" class="cart-input">
+                            </label>
+                        </div>
+                        <div class="input">
+                            <label>
+                                <input type="tel" placeholder="Телефон" class="cart-input">
+                            </label>
+                        </div>
+                        <div class="input">
+                            <label>
+                                <input type="email" placeholder="Email" class="cart-input">
+                            </label>
+                        </div>
+                        <div class="input">
+                            <label>
+                                <textarea name="comment" placeholder="Комментарий к заказу" class="cart-input"></textarea>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="cart-order__right">
+                <div class="cart-order__fix">
+                    <div class="cart-order__title">Стоимость заказа</div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>Стоимость товаров</td>
+                                <td>24 200 ₽</td>
+                            </tr>
+                            <tr>
+                                <td>Стоимость доставки</td>
+                                <td>0 ₽</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td>Итого к оплате</td>
+                                <td>24 200 ₽</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                    <button class="btn btn-brown">Оформить заказ</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    
+
+
+    <!-- @import #sorse/kit/subscribe.kit -->
+
+</main>
+
+
+
+<!-- @import #sorse/kit/footer.kit -->
+
+
+</body>
+
+</html>

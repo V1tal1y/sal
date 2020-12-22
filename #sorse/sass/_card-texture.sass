@@ -255,6 +255,8 @@
                     display: none
     .catalog-card__info p
         font-size: 16px
+    .other-textures__item
+        font-size: 17px
     .catalog-card
         &__links
             a
@@ -289,7 +291,9 @@
         .projects-item
             margin-right: 0
             width: calc( 50% - 15px )
-
+    .projects-item
+        &__img
+            height: 24vw
     .catalog-card
         &__links
             a
@@ -325,6 +329,8 @@
         &__item
             width: calc( 50% - 15px ) 
             margin-right: 0
+        &__img
+            height: 24vw
     .s-other-textures .container
         padding-bottom: 30px
     .s-projects
@@ -353,6 +359,10 @@
                     display: block
     .catalog-card__info p
         font-size: 14px
+    .other-textures,
+    .projects-item
+        &__img
+            height: 155px
 
 @media screen and (max-width: 550px )
     .s-projects .s-title-mini
@@ -381,8 +391,17 @@
     .s-projects 
         .btn-order-design
             margin-bottom: 25px
-    .other-textures__item
-        width: calc( 50% - 10px )
+    .other-textures
+        &__item
+            width: calc( 50% - 10px )
+    .projects-item
+        &__img
+            height: 250px
+    .other-textures
+        &__item
+            font-size: 16px
+        &__img
+            height: 145px
     .projects-list 
         display: block
         .projects-item
@@ -403,6 +422,12 @@
         display: block
         &__item
             width: 100%
+            margin-bottom: 20px
+            font-size: 14px
+    .other-textures,
+    .projects-item
+        &__img
+            height: 50vw
     .catalog-card
         &__slider 
             width: 100vw
@@ -427,8 +452,6 @@
                 p
                     padding-bottom: 12px
                     font-size: 15px
-    .other-textures__item
-        margin-bottom: 20px
     .projects-item__name
         font-size: 15px
     .portfolio

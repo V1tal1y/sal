@@ -1,0 +1,233 @@
+.favotite-top
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding-bottom: 5px
+    &__right
+        display: flex
+        align-items: center
+        margin-bottom: 20px
+    .catalog-card__links
+        margin-right: 75px
+
+.clr-favotite
+    font-size: 15px
+    color: $brown
+    &:hover
+        color: $brownh
+
+.s-favorites
+    .sorting
+        margin-bottom: 35px
+        font-size: 15px
+
+.nead-help
+    padding-bottom: 35px
+    .btn
+        width: 352px
+        height: 60px
+        max-width: 100%
+
+.pay-cards
+    display: flex
+    align-items: center
+    margin-top: -3px
+    img
+        margin-right: 10px
+
+.download-file
+    display: flex
+    align-items: center
+    font-size: 13px
+    color: $bop
+    margin-bottom: 15px
+    a
+        display: flex
+        align-items: center
+        justify-content: center
+        text-align: center
+        width: 110px
+        height: 26px
+        margin-right: 15px
+        background: $brown
+        color: #ffffff
+        &:hover
+            background: $brownh
+
+.info-page
+    .container
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+    &__sidebar
+        width: 225px
+        margin-bottom: 35px
+    &__content
+        width: calc( 100% - 380px )
+        font-size: 15px
+        padding-bottom: 15px
+        line-height: 24px
+        p
+            padding-bottom: 1em
+        b
+            font-size: 18px
+            font-weight: 600
+    .s-title
+        padding-bottom: 20px
+        
+
+.info-delivery
+    table
+        border-collapse: collapse
+        width: calc( 100% + 30px )
+        margin-left: -30px
+        margin-bottom: 15px
+        tr
+            &:first-child
+              td
+                  padding-top: 0
+            &:last-child
+                font-weight: bold
+            &:nth-child(even)
+                background: rgba(0,0,0,0.05)
+        td
+            padding: 7px 30px
+            &:first-child
+                color: $dop
+                
+
+.info-warranty
+    &__sub-title
+        font-size: 18px
+        padding-bottom: 30px
+        line-height: 1.33
+        font-weight: bold
+
+.info-exchange
+    ul
+        li
+            &::before
+                content: '•'
+                display: inline
+                padding-right: 5px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1700px )
+
+
+
+
+
+
+@media screen and (max-width: 1199px )
+    .info-page
+        &__content
+            width: calc( 100% - 265px )
+        .s-title
+            padding-bottom: 5px
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 950px )
+    .info-page
+        .container
+            display: block
+        &__sidebar
+            width: 100%
+        &__content
+            width: 100%
+        .s-title
+            padding-bottom: 0
+
+    .favotite-top
+        display: block
+        &__right
+            justify-content: space-between
+        .catalog-card__links
+            margin-right: 25px
+
+    .info-delivery
+        table
+            width: 110%
+            margin-left: -5%
+
+
+
+
+
+@media screen and (max-width: 750px )
+    .info-page__content b
+        font-size: 16px
+        padding-bottom: 16px
+
+
+
+
+
+
+
+@media screen and (max-width: 550px )
+    .s-favorites
+        width: 100%
+        overflow: hidden
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 450px )
+    .s-favorites
+        .sorting
+            width: fit-content
+            margin-bottom: 20px
+    .favotite-top
+        padding-bottom: 0
+        &__right
+            display: block
+        .catalog-card__links
+            margin-right: 0
+            margin-bottom: 10px
+    .info-page
+        &__content
+            p
+                line-height: 1.45
+
+    .info-delivery
+        table
+            width: calc( 100% + 20px )
+            margin-left: -10px
+            font-size: 13px
+            td
+                padding: 6px 10px
+
